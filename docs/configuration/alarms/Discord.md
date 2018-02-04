@@ -43,13 +43,13 @@ PokeAlarm offers the following for Discord:
 
 The parameters below are required to enable the Discord alarm service:
 
-============== =======================================
-Parameters     Description
-============== =======================================
-`type`         Must be `discord`
-`active`       `true` for alarm to be active
-`webhook_url`* Your Webhook URL for a specific channel
-============== =======================================
+=============== ========================================
+Parameters      Description
+=============== ========================================
+`type`          Must be `discord`
+`active`        `true` for alarm to be active
+`webhook_url`*  Your Webhook URL for a specific channel
+=============== ========================================
 
 **Note:** *In PokeAlarm version 3.1, `webhook_url` replaced `api_key`.*
 
