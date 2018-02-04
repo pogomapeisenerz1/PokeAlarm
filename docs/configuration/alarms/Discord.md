@@ -76,11 +76,10 @@ optional parameters and how they are incorporated into a functional alarm layout
 
 These optional parameters are entered at the same level as `"type":"discord"`.
 
-================= ============================================
-Parameters        Description
-================= ============================================
-`startup_message` Confirmation post when PokeAlarm initialized
-================= ============================================
++-------------------+--------------------------------------------------+
+| Parameters        | Description                                      |
++-------------------+--------------------------------------------------+
+| `startup_message` | Confirmation post when PokeAlarm initialized     | +-------------------+--------------------------------------------------+
 
 These optional parameters below are applicable to the `monsters`, `stops`,
 `gyms`, `eggs`, and `raids` sections of the JSON file.
@@ -90,7 +89,7 @@ Parameters      Description                                      Default
 =============== ================================================ ==========================================
 `webhook_url`   URL of specific channel name. Overrides
                 `webhook_url` at Alarm level. Use to post only
-`disable_embed` Disables the body to make one line notifications `False`
+`disable_embed` Disables the body to make one line notifications `false`
 `username`      Username the bot should post the message as      `<mon_name>`
 `icon_url`      URL path to icon
 `avatar_url`    URL path to avatar
@@ -98,7 +97,7 @@ Parameters      Description                                      Default
 `url`           Link to be added to notification text            `<gmaps>`
 `body`          Additional text to be added to the message       `Available until <24h_time>(<time_left>).`
 `content`       Text before the Discord embed
-=============== ================================================ ==========================================
+=============== ================================================ ===========================================
 
 *Note: Nidorans will be `nidoranf` or `nidoranm`, Farfetch'd will be
 `farfetchd`, and Mr. Mime will be `mrmime`.*
@@ -165,7 +164,7 @@ TO USE CUSTOM IMAGES, DO NOT ADD THESE LINES TO YOUR ALARMS.JSON.
 
 ### Mini Map Configuration
 
-![](images/minimap.png)
+![](../../images/minimap.png)
 
 You can enable a small Google Static Maps image after your post, showing the
 location of the alarmed pokemon, gym, pokestop, egg, or raid. This is done by
@@ -192,32 +191,32 @@ Below is an example of enabling the mini map for pokemon.
 	},
 ```
 
-=========== ====================================== ==========
+=========== ====================================== ===========
 Parameters  Description                            Default
-=========== ====================================== ==========
+=========== ====================================== ===========
 `enabled`   Turns the map on or off                `true`
 `width`     Width of the map                       `250` px
 `height`    Height of the map                      `150` px
 `maptype`   Link to be added to notification text  `roadmap`
 `zoom`      Specifies the zoom of the map          `15`
-=========== ====================================== ==========
+=========== ====================================== ===========
 
 ### Formatting alarms text
 
 Here is a basic guide to apply custom styles to alarm text:
 
-================================== =================================
-Style                              Example
-================================== =================================
-`*italics*`                        *italics*
-`**bold**`                         **bold**
-`***bold italics***`               ***bold italics***
-`__underline__`                    __underline__
-`__*underline italics*__`          __*underline italics*__
-`__**underline bold**__`           __**underline bold**__
-`__***underline bold italics***__` __***underline bold italics***__
-`~~Strikethrough~~`                ~~Strikethrough~~
-================================== =================================
+=================================== ==================================
+Style                               Example
+=================================== ==================================
+`*italics*`                         *italics*
+`**bold**`                          **bold**
+`***bold italics***`                ***bold italics***
+`__underline__`                     __underline__
+`__*underline italics*__`           __*underline italics*__
+`__**underline bold**__`            __**underline bold**__
+`__***underline bold italics***__`  __***underline bold italics***__
+`~~Strikethrough~~`                 ~~Strikethrough~~
+=================================== ==================================
 
 You can see other options in the official Discord information about formatting text [here](https://support.discordapp.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline-).
 

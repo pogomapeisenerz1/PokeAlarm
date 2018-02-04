@@ -13,7 +13,7 @@ This page assumes:
 
 + You have a working scanner.
 + You understand
-  `JSON formatting <https://www.w3schools.com/js/js_json_intro.asp>_`.
+  `JSON formatting <https://www.w3schools.com/js/js_json_intro.asp>`_.
 + You are using the latest version of PokeAlarm.
 + You have read and understood the :doc:`index` page.
 
