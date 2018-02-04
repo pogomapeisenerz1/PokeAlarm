@@ -17,7 +17,7 @@ This page assumes:
 + You are using the latest version of PokeAlarm.
 + You have read and understood the :doc:`index` page.
 
- Introduction
+Introduction
 -------------------------------------
 
 The `"monsters"` section has three distinct settings.

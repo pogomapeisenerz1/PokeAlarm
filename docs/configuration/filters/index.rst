@@ -14,7 +14,7 @@ This pages assumes the following:
 
 + You understand how :doc:`../events/index` work.
 + You understand
-  `JSON formatting <https://www.w3schools.com/js/js_json_intro.asp>_`.
+  `JSON formatting <https://www.w3schools.com/js/js_json_intro.asp>`_.
 + You are using the latest version of PokeAlarm.
 
 Introduction
