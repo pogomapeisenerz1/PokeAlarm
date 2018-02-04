@@ -14,7 +14,7 @@ This pages assumes the following:
 
 + You understand how :doc:`../events/index` work.
 + You understand
-  `JSON formatting <https://www.w3schools.com/js/js_json_intro.asp>`.
+  `JSON formatting <https://www.w3schools.com/js/js_json_intro.asp>_`.
 + You are using the latest version of PokeAlarm.
 
 Introduction
@@ -177,6 +177,42 @@ Filter does the opposite - at least one *checked* value must be unknown to pass.
             information. Filters only check information if a restriction
             requires it. For example, IV is only checked if either ``min_iv`` or
             ``max_iv`` is set. The same is true for other values.
+
+
+Geofences
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+For more information on configuring your `geofence.txt`, see the
+:doc:`../geofences` page.
+
+You can require an Event to be inside specific geofences for a Filter.
+
+This example will check if an event is inside either `"fence1"` or
+`"fence2"` as defined in:
+
+.. code-block:: json
+  "filter_name_1": {
+      "geofences": [ "fence1", "fence2" ]
+  }
+
+
+Geofences are checked in order. The first geofence with the event inside
+ will be used to define the `<geofence>` DTS.
+
+If no geofences are set, the `<geofence>` DTS will always return
+`unknown`.
+
+If a geofence with the set name does not exist, it will be skipped and
+an error will print out to the console.
+
+Another example would be to configure alerts inside all of your geofences.
+You just have to configure the geofences like this:
+
+.. code-block:: json
+  "filter_name_1": {
+      "geofences": [ "all" ]
+  }
+
 
 Custom DTS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

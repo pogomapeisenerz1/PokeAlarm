@@ -1,5 +1,5 @@
-Monsters
-===========
+Monsters Events
+=====================================
 
 .. contents::
    :caption: Table of Contents

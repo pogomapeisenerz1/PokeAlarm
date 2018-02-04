@@ -42,7 +42,7 @@ know of any rare spawns or raids.
 
 .. toctree::
    :maxdepth: 1
-   :caption: Miscellaneous:
+   :caption: Other:
    :glob:
 
    miscellaneous/*

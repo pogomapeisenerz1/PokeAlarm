@@ -30,7 +30,8 @@ for Events, each with different information:
    Egg-DTS
    Stop-DTS
 
-.. _events_dts
+.. _events_dts:
+
 Dynamic Text Substitutions
 -------------------------------------
 

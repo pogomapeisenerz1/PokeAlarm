@@ -1,9 +1,9 @@
-Filters
-========
+Object Caching
+=====================================
 
 .. contents::
    :caption: Table of Contents
-   :depth: 3
+   :depth: 2
    :local:
 
 Prerequisites
@@ -22,8 +22,8 @@ Introduction
 PokeAlarm uses `Cache` objects to store information that is not present on
 runtime. The cached objects store information such as `gym-info` and other
 dynamic objects sent into PokeAlarm via webhook. Cached data is used for
-internal calculations as well as to provide details for :doc:`../events/index`
-in :doc:`../alarms/index`.
+internal calculations as well as to provide details for :doc:`../configuration/events/index`
+in :doc:`../configuration/alarms/index`.
 
 Caching Methods
 -------------------------------------
@@ -68,7 +68,7 @@ explicitly unique name.
 Clearing Cache
 -------------------------------------
 
-* **Memory Cache** is cleared whenever PA exits for any reason.  
+* **Memory Cache** is cleared whenever PA exits for any reason.
 * **File Caches** may be cleared by deleting the `cache/<manager_name>.cache`
   file that corresponds to the manager you wish to clear the cache for. (To
   clear all cached data, delete all files in the cache folder). PA will need
