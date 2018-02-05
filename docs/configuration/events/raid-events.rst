@@ -68,8 +68,8 @@ team_leader       The leader of the team currently in control of the gym.
 
 .. note::
 
-\* Gym Info requires caching. See the :doc:`../miscellaneous/object-caching`
-page for more information.
+  \* Gym Info requires caching. See the :ref:`object-caching`
+  page for more information.
 
 
 Location
@@ -98,12 +98,13 @@ geofence      Geofence around the event.
 Time
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-================ ============================================================
+================ ===============================================
 DTS              Description
-================ ============================================================
+================ ===============================================
 raid_time_left   Time remaining until the raid ends.
 12h_raid_end     Time when the raid ends, formatted in 12h.
 24h_raid_end     Time when the raid ends, formatted in 24h.
+================ ===============================================
 
 
 Weather

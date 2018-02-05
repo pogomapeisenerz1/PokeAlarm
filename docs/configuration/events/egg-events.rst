@@ -42,7 +42,7 @@ team_leader       The leader of the team currently in control of the gym.
 
 .. note::
 
-  \* Gym Info requires caching. See the :doc:`../miscellaneous/object-caching`
+  \* Gym Info requires caching. See the :ref:`object-caching`
   page for more information.
 
 

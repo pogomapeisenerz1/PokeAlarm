@@ -26,9 +26,6 @@ know of any rare spawns or raids.
    :caption: Configuration:
 
    configuration/server-settings
-   configuration/events/index
-   configuration/filters/index
-   configuration/alarms/index
    configuration/managers
    configuration/geofences
    configuration/rules-overview

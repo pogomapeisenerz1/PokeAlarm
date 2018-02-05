@@ -44,11 +44,12 @@ gym_description  The description of the gym. *
 gym_image        The url to the image of the gym. *
 slots_available  Number of open guard slots available in a gym.
 guard_count      Number of guards assigned to a gym.
+================ ========================================================
 
 .. note::
 
-\* Gym Info requires caching. See the :doc:`../miscellaneous/object-caching`
-page for more information.
+  \* Gym Info requires caching. See the :ref:`object-caching`
+  page for more information.
 
 
 Location
