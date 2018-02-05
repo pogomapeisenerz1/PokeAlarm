@@ -58,8 +58,7 @@ image below.
 
 .. image:: ../images/01-blank-dashboard.png
 
-3. At the top of the page, click the **Project** dropdown, then
- select **Create project**.
+3. At the top of the page, click the **Project** dropdown, then select **Create project**.
 
 .. image:: ../images/02-create-project.png
 
@@ -94,15 +93,12 @@ API** at the middle bottom.
 
 .. image:: ../images/08_dashboard_with_geocoding_enabled.png
 
-8. Click on **Library** at the left and repeat the same process of enabling
- APIs for the **Google Maps Distance Matrix** and **Google Static Maps** APIs.
- When you are finished, click **Dashboard** on the left and make sure that you
- see all 3 APIs at the middle bottom.
+8. Click on **Library** at the left and repeat the same process of enabling APIs for the **Google Maps Distance Matrix** and **Google Static Maps** APIs.
+When you are finished, click **Dashboard** on the left and make sure that you see all 3 APIs at the middle bottom.
 
 .. image:: ../images/09_dashboard_geocoding_distance_enabled.png
 
-9. Now that we have the 3 APIs enabled, let's generate our API key. Click on
- **Credentials** at the left, then the blue **Create Credentials** in the middle.
+9. Now that we have the 3 APIs enabled, let's generate our API key. Click on **Credentials** at the left, then the blue **Create Credentials** in the middle.
 
 .. image:: ../images/10_credentials.png
 

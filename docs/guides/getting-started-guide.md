@@ -21,8 +21,8 @@ and customizing PokeAlarm to fit your needs.
 
 This guide assumes the following:
 
-1. You have correctly [installed PokeAlarm](installation), including
-setting up a source for your information.
+1. You have correctly [installed PokeAlarm](../getting-started/installation.html),
+including setting up a source for your information.
 
 2. You are using Notepad++, Nano, or Vi(m) to configure any files. Do
 **NOT** use or open any files with Notepad or TextEdit - they will
@@ -48,9 +48,9 @@ represents how you want to receive an alert. For our example, we will
 use Discord, but the steps are similar between types of Alarms.
 
 To create a Discord Alarm, you should be familiar with these two pages:
-1. Learn how to configure your alarms file with the [Alarms](alarms)
+1. Learn how to configure your alarms file with the [Alarms](../configuration/alarms)
 wiki page.
-2. Learn how to set up a Discord webhook url with the [Discord](discord)
+2. Learn how to set up a Discord webhook url with the [Discord](../configuration/alarms/discord.html)
 wiki page.
 
 Once we have our webhook url set up, we can edit the default discord
@@ -74,7 +74,7 @@ you should see a start up message posted in your discord channel!
 
 Filters are how PokeAlarm decides which Events get sent to sent to the
 Alarms to trigger notifications. To get all the details of Filters,
-read the [Filters](Filters-Overview) wiki page.
+read the [Filters](../configuration/filters) wiki page.
 
 In PokeAlarm, there are five different types of events. In a filter's
 config file, there is a section for setting filters in each type of
@@ -194,12 +194,12 @@ section of a filters file set up for legendary birds:
 PokeAlarm allows you to customize the Alerts that it sends out. We want
 to customize our Raid Alerts to show a more appropriate message. To add
 custom text to a Discord Alarm, you should be familiar with three pages:
-1. Learn how to configure your alarms file with the [Alarms](alarms)
+1. Learn how to configure your alarms file with the [Alarms](../configuration/alarms)
 wiki page.
-2. Learn what fields Discord has to change with [Discord](discord)
+2. Learn what fields Discord has to change with [Discord](../configuration/alarms/discord.html)
 wiki page.
 3. Learn what DTS options are available to you with the
-[Dynamic Text Substitution](dynamic-text-substitution) wiki page.
+[Events](../configuration/events) wiki page.
 
 ```json
 {
@@ -260,7 +260,7 @@ isn't a starter pokemon! Let's add a second manager that allow us to
 customize even more.
 
 You can find out more about Manager's and their settings on the
-[Managers](managers) wiki page.
+[Managers](../configuration/managers.html) wiki page.
 
 First, lets make two different filter files. We will call the following
 filter file `starters_filter.json`:
@@ -360,7 +360,8 @@ too many managers can be inefficient and waste your computers resources.
 
 Managers are a great tool that allow you to mix and match almost every
 setting to any filter or alarm settings. For full details on the power
-of Managers, don't forget to check out [Managers](managers) wiki page.
+of Managers, don't forget to check out [Managers](../configuration/managers.html)
+wiki page.
 
 ## Advanced: Missing Info
 
@@ -368,7 +369,7 @@ Sometimes, Event's are missing information needed to correctly filter
 them. In these instances, you can use the `"is_missing_info"` parameter
 to require a filter to reject or allow Events with missing information.
 You can read more about the feature on the
-[Filters](filters-overview#missing-info) wiki page.
+[Filters](../configuration/filters) wiki page.
 
 I really only want monsters like Bulbasaur and Squirtle to trigger
 notifications if they have the right ivs that I am looking for. If my
@@ -399,7 +400,7 @@ any necessary information is missing.
 
 Custom DTS is a feature that let's you define filter-specific DTS that
 ONLY work when that filter passes. You can read more about it on the
-[Filters](filters-overview#custom-dts) wiki page.
+[Filters](../configuration/filters) wiki page.
 
 I can use it to change certain text depending on which filters pass.
 
