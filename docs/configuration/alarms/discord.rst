@@ -3,7 +3,7 @@ Discord
 
 .. contents::
    :caption: Table of Contents
-   :depth: 2
+   :depth: 1
    :local:
 
 
@@ -48,7 +48,7 @@ Parameters      Description
 =============== ========================================
 `type`          Must be `discord`
 `active`        `true` for alarm to be active
-`webhook_url`*  Your Webhook URL for a specific channel
+`webhook_url` * Your Webhook URL for a specific channel
 =============== ========================================
 
 .. note:: \*In PokeAlarm version 3.1, `webhook_url` replaced `api_key`.
@@ -62,6 +62,7 @@ Example: Basic Alarm Configuration using Required Parameters
   `alarms.json`. It does not represent the entire `alarms.json` file.
 
 .. code-block:: json
+
   {
   	"active":true,
   	"type":"discord",
@@ -118,6 +119,7 @@ Example: Alarm Configuration Using Optional Parameters
   ``alarms.json``. It does not represent the entire ``alarms.json`` file.
 
 .. code-block:: json
+
   {
     "discord_alarm":{
       "active":true,
@@ -187,6 +189,7 @@ notification), or individually to the ``monsters``, ``stops``, ``gyms``,
 Below is an example of enabling the mini map for pokemon.
 
 .. code-block:: json
+
 	"monsters":{
 		"webhook_url":"YOUR_WEBHOOK_URL_FOR_POKEMON_CHANNEL",
 		"username":"<mon_name>",
