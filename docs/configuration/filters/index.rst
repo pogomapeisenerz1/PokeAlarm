@@ -12,8 +12,7 @@ Prerequisites
 This pages assumes the following:
 
 + You understand how :doc:`../events/index` work.
-+ You understand
-  `JSON formatting <https://www.w3schools.com/js/js_json_intro.asp>`_.
++ You understand `JSON formatting <https://www.w3schools.com/js/js_json_intro.asp>`_.
 + You are using the latest version of PokeAlarm.
 
 Introduction
@@ -25,14 +24,14 @@ When PA finds a matching Filter, it triggers a notification.
 
 .. note:: By default, PA processes Filters in the order they are listed in the
          filters file and only triggers on the first match. You can override
-         this behavior by using the advanced :doc:`../Rules-Overview` feature.
+         this behavior by using the advanced :doc:`../rules-overview` feature.
 
 There are 5 different types of Filters, each matching a category of Events:
 
 .. toctree::
    :maxdepth: 1
 
-   Monster Filters <monster-filters>
+   Monsters <monster-filters>
    Stop-Filters
    Gym-Filters
    Egg-Filters
@@ -184,11 +183,11 @@ Filter does the opposite - at least one *checked* value must be unknown to pass.
 Geofences
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-For more information on configuring your ``geofence.txt``, see the :doc:`../geofences.html` page.
+For more information on configuring your ``geofence.txt``, see the :doc:`../geofences` page.
 
 You can require an Event to be inside specific geofences for a Filter.
 
-This example will check if an event is inside either `"fence1"` or `"fence2"`
+This example will check if an event is inside either ``"fence1"`` or ``"fence2"``
 as defined in:
 
 .. code-block:: json
