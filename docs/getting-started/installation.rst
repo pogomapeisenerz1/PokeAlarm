@@ -41,11 +41,11 @@ Installing
 
 3. **Configure PokeAlarm** - Next you need to configure PokeAlarm.
 
-   - :doc:`../configuration/Server-Settings` let you configure things like host
+   - :doc:`../configuration/server-settings` let you configure things like host
      IP, port, language, and more.
-   - :doc:`../configuration/filters/index` represent which Events trigger
+   - :doc:`../configuration/filters` represent which Events trigger
      notifications. You will need to create a filters file before starting PA.
-   - :doc:`../configuration/alarms/index` represent where and how
+   - :doc:`../configuration/alarms` represent where and how
      notifications. You will need to create an alarms file before starting PA.
 
 

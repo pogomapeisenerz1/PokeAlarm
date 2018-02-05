@@ -19,7 +19,7 @@ know of any rare spawns or raids.
    :caption: Getting Started:
 
    getting-started/installation
-   getting-started/FAQ
+   getting-started/faq
 
 .. toctree::
    :maxdepth: 1
@@ -31,7 +31,7 @@ know of any rare spawns or raids.
    configuration/alarms/index
    configuration/managers
    configuration/geofences
-   configuration/Rules-Overview
+   configuration/rules-overview
 
 .. toctree::
    :maxdepth: 1
