@@ -23,7 +23,7 @@ This guide assumes:
 
 1) You have [Docker](https://docs.docker.com/) installed and running on your machine
 2) You have [Git](https://git-scm.com/downloads) installed and running on your machine
-3) You have read and understood the [Alarms](../configuration/alarms/index) wiki
+3) You have read and understood the [Alarms](../configuration/alarms) wiki
 
 Please familiarize yourself with all of the above before proceeding.
 

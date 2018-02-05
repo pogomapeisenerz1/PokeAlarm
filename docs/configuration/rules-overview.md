@@ -12,9 +12,9 @@
 This page assumes:
 
 1. You have a working PA installations.
-2. You read and understood the [Filters](Filters-Overview) page.
+2. You read and understood the [Filters](filters) page.
 3. You read and understood the [Alarms](alarms) page
-4. You have an understanding on what a [Manager](Managers) is.
+4. You have an understanding on what a [Manager](managers.html) is.
 
 ## Default Rule
 
@@ -93,4 +93,3 @@ other events to the discord alarm.
 ## Examples
 
 Coming soon!
-

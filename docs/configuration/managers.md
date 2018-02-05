@@ -16,7 +16,7 @@ This guide will walk you through configuring server settings for PokeAlarm.
 
 This guide assumes the following:
 
-1. You have correctly [installed PokeAlarm](installation).
+1. You have correctly [installed PokeAlarm](../getting-started/installation.html).
 
 2. You are using Notepad++, Nano, or Vi(m) to configure any files. Do **NOT**
 use or open any files with Notepad or TextEdit - they will break your files!
@@ -89,7 +89,7 @@ geofence: [ city1.json, none, city2.json ]
 As you can see, you can mix managers with geofences and without by using `none`
 for any managers that you don't want a geofence file loaded for.
 
-You can find more information about Geofences on the [Geofences](geofences)
+You can find more information about Geofences on the [Geofences](geofences.html)
 wiki page.
 
 ### Timezones

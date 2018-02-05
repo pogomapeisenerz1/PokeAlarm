@@ -29,7 +29,7 @@ know of any rare spawns or raids.
    configuration/events/index
    configuration/filters/index
    configuration/alarms/index
-   configuration/Managers
+   configuration/managers
    configuration/geofences
    configuration/Rules-Overview
 
