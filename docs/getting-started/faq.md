@@ -17,7 +17,7 @@ sure to read the rules channel, so you don't inadvertently get banned.
 #### What scanners are supported?
 * Currently RocketMap (RM) and Monocle are compatible with PA.
 If you are interested in adding support for your program, feel free to
-read the [Webhook Standards](webhook-standard) and ask us in Discord
+read the [Webhook Standards](../miscellaneous/webhook-standard.html) and ask us in Discord
 what you can do to add support for PA.
 
 #### I have a great idea for a new feature!
@@ -63,7 +63,7 @@ the details.
 
 You can use file-caching to save the gym names to a file so that they
 are available upon restart. Check out the
-[Object Caching](Object-Caching) page for more information.
+[Object Caching](../miscellaneous/object-caching.html) page for more information.
 
 #### How can I optimize PokeAlarm?
 PA uses Gevent and Multiprocessing to be as responsive as possible to
@@ -120,18 +120,18 @@ some suggestions on optimization.
 doesn't know the correct information. This could be a variety of reasons
 
 #### Map images aren't showing up correctly... What can I do?
-* Make sure you have added a [Google API Key](Google-Maps-API-Key) and
-have the Static Maps API enabled. If you already have it enabled, make
+* Make sure you have added a [Google API Key](../miscellaneous/gmaps-api.html)
+and have the Static Maps API enabled. If you already have it enabled, make
 sure that you haven't hit the limit for free users.
 
 #### Missing icons in your alerts?
 * Remove your lines from `icon_url` and `avatar_url` from your
-[Alarms](alarms) to use the default images in the PA.
+[Alarms](../configuration/alarms) to use the default images in the PA.
 
 #### Do you want to use custom images in your alerts?
 * Add in your alarms the option to add images (depends on the service
 that is used) and add your url where the images are. For example, if you
-use [Discord](Discord) it will be something like this:
+use [Discord](../configuration/alarms/discord.html) it will be something like this:
 
 ```
 "icon_url":"https://raw.githubusercontent.com/user/PokeIcons/master/icons/<pkmn_id>.png"

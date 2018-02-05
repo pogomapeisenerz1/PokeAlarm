@@ -35,7 +35,7 @@ Installing
    copy of the project. This create a folder called 'PokeAlarm' that will
    contain the application.
 
-2. **Install the Requirements** - In a terminal, naviagate into the root folder
+2. **Install the Requirements** - In a terminal, navigate into the root folder
    of your PA installation. Run ``pip install -r requirements.txt --upgrade``.
    This will install and update the modules that PokeAlarm needs to run.
 
@@ -43,9 +43,9 @@ Installing
 
    - :doc:`../configuration/server-settings` let you configure things like host
      IP, port, language, and more.
-   - :doc:`../configuration/filters` represent which Events trigger
+   - :doc:`../configuration/filters/index` represent which Events trigger
      notifications. You will need to create a filters file before starting PA.
-   - :doc:`../configuration/alarms` represent where and how
+   - :doc:`../configuration/alarms/index` represent where and how
      notifications. You will need to create an alarms file before starting PA.
 
 
