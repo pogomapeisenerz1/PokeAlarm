@@ -13,8 +13,7 @@ This guide assumes:
 
 1. You have a functional PokeAlarm installation
 2. You have an available Google account (e.g., Gmail)
-3. You have read and understood the available Command Line Arguments in the
- :doc:`../configuration/server-settings` wiki
+3. You have read and understood the available Command Line Arguments in the :doc:`../configuration/server-settings` wiki
 
 Introduction
 -------------------------------------
@@ -41,8 +40,7 @@ enable the Google Static Maps and Google Maps Geocoding APIs.
 
 In this guide, we will:
 
-1. Enable all 3 APIs and generate an API key that will allow PokeAlarm to
-  provide these features
+1. Enable all 3 APIs and generate an API key that will allow PokeAlarm to provide these features
 2. Test the key to make sure it working correctly
 3. Start **PokeAlarm** with your API key
 
@@ -186,9 +184,7 @@ There are 2 methods to start **PokeAlarm** with your Google Maps API key:
 
 1. Run the command ``python start_pokealarm.py -k YOUR_GOOGLE_MAPS_API_KEY``
 
-2. Add ``key:YOUR_GOOGLE_MAPS_API_KEY`` to ``config.ini`` located in the ``config``
- subfolder of your PokeAlarm installation, then run the command
- ``python start_pokealarm.py``.
+2. Add ``key:YOUR_GOOGLE_MAPS_API_KEY`` to ``config.ini`` located in the ``config`` subfolder of your PokeAlarm installation, then run the command ``python start_pokealarm.py``.
 
 
 Google API Daily Limit
