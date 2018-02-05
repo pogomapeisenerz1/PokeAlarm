@@ -83,10 +83,10 @@ Filters File
 
 .. note::
 
-  A *filters file* (often refereed to as 'filters.json') is a file containing
+  A *filters file* (often refereed to as ``filters.json``) is a file containing
   then Filters that PA uses. By default, PA loads the Filter from the
   `filters.json` located in the base folder of the project. See the
-  :doc:`../Server-Settings` page for instructions on specifying the file by
+  :doc:`../server-settings` page for instructions on specifying the file by
   a different name. This file must contain a single JSON object to load
   successfully:
 
@@ -175,8 +175,8 @@ Filter does the opposite - at least one *checked* value must be unknown to pass.
 
 .. warning:: The ``is_missing_info`` restriction only affects *checked*
             information. Filters only check information if a restriction
-            requires it. For example, IV is only checked if either ``min_iv`` or
-            ``max_iv`` is set. The same is true for other values.
+            requires it. For example, IV is only checked if either ``min_iv``
+            or ``max_iv`` is set. The same is true for other values.
 
 .. _geofences_filters:
 
