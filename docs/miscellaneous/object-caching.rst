@@ -44,9 +44,9 @@ Memory Cache
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When using the `mem` cache type, cached data is stored in memory only and is
-cleared whenever PA exits.  This will cause all :doc:`../events/index` fields
-which require this data to display an `unknown` or `null` value until the data
-is received by PA through webhooks.
+cleared whenever PA exits.  This will cause all :doc:`../configuration/events`
+fields which require this data to display an `unknown` or `null` value until
+the data is received by PA through webhooks.
 
 Binary File Cache
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
