@@ -1,6 +1,7 @@
 # Geofences
 
 ## Overview
+
 * [Introduction](#introduction)
 * [Instructions](#instructions)
 * [Example: 4 point geofence - Central Park, New York, NY](#example-4-point-geofence---central-park-new-york-ny)
@@ -9,6 +10,7 @@
 * [Geofence Generator: Draw Your Own Geofence](#geofence-generator-draw-your-own-geofence)
 
 ## Introduction
+
 Geofencing will restrict PokeAlarm alerts to a defined geographical area.
 The area is defined by a list of at least 2 sets of latitude and longitude
 coordinates.  You may provide as many coordinates as you'd like to define
@@ -17,7 +19,7 @@ defines your polygon.
 
 **Note:** PokeAlarm will first check pokemon alert distance, *then* will
 check to see if the pokemon is located within your geofence.
-See [Filters](Monster-Filters#parameters) on how to limit alerts
+See [Monster Filters](filters/monster-filters) on how to limit alerts
 based on distance.
 
 ## Instructions
@@ -202,6 +204,7 @@ all geofences in a geofence file. Example:
 ```
 
 ## Geofence Generator: Draw Your Own Geofence
+
 These are handy web tool to create and visualize your desired geofence.
 
 Jason's [A Better Fence Editor](http://geo.jasparke.net/) - Recommended by PokeAlarm team
