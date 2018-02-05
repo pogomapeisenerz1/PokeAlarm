@@ -108,7 +108,7 @@ lat_5               Latitude of the monster, truncated to 5 decimal places.
 lng_5               Longitude of the monster, truncated to 5 decimal places.
 gmaps               Google Maps link to the location of the monster.
 applemaps           Apple Maps link to the location of the monster.
-geofence            Geofence the Event is located in.
+geofence            Geofence around the event.
 =================== ============================================================
 
 

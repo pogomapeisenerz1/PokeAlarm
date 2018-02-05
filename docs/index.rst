@@ -35,6 +35,29 @@ know of any rare spawns or raids.
 
 .. toctree::
    :maxdepth: 1
+   :caption: Events:
+
+   Overview <configuration/events/index>
+   Monsters <configuration/events/monster-events>
+   Stops <configuration/events/stop-events>
+   Gyms <configuration/events/gym-events>
+   Eggs <configuration/events/egg-events>
+   Raids <configuration/events/raid-events>
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Filters:
+
+   Overview <configuration/filters/index>
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Alarms:
+
+   Overview <configuration/alarms/index>
+
+.. toctree::
+   :maxdepth: 1
    :caption: Guides:
    :glob:
 

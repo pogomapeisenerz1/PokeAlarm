@@ -24,10 +24,10 @@ for Events, each with different information:
    :maxdepth: 1
 
    monster-events
-   Stop-DTS
-   Gym-DTS
-   Egg-DTS
-   Stop-DTS
+   stop-events
+   gym-events
+   egg-events
+   raid-events
 
 .. _events_dts:
 
