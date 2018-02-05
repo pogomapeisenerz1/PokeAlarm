@@ -1,8 +1,7 @@
 Alarms
 =======
 
-.. contents::
-   :caption: Table of Contents
+.. contents:: Table of Contents
    :depth: 1
    :local:
 
@@ -123,6 +122,7 @@ has different defaults available. The following is a config where a portion of
 the Alert has been updated:
 
 .. code-block:: json
+
   {
     "slack_alarm":{
       "active":true,
@@ -154,6 +154,7 @@ Example `alarms.json`
 Below is a working alarm configuration for Discord and Slack:
 
 .. code-block:: json
+
   {
       "discord_alarm":{
           "active":true,

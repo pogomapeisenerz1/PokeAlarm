@@ -1,8 +1,7 @@
 Monsters Events
 =====================================
 
-.. contents::
-   :caption: Table of Contents
+.. contents:: Table of Contents
    :depth: 2
    :local:
 
