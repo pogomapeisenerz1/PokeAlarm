@@ -159,6 +159,8 @@ configured as described above. Here is an example of just the monsters section:
 Advanced
 -------------------------------------
 
+.. _missing_info_filters:
+
 Missing Information
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -178,6 +180,7 @@ Filter does the opposite - at least one *checked* value must be unknown to pass.
             requires it. For example, IV is only checked if either ``min_iv`` or
             ``max_iv`` is set. The same is true for other values.
 
+.. _geofences_filters:
 
 Geofences
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -213,6 +216,7 @@ You just have to configure the geofences like this:
       "geofences": [ "all" ]
   }
 
+.. _custom_dts_filters:
 
 Custom DTS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
