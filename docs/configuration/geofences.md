@@ -19,7 +19,7 @@ defines your polygon.
 
 **Note:** PokeAlarm will first check pokemon alert distance, *then* will
 check to see if the pokemon is located within your geofence.
-See [Monster Filters](filters/monster-filters) on how to limit alerts
+See [Monster Filters](filters/monster-filters.html) on how to limit alerts
 based on distance.
 
 ## Instructions

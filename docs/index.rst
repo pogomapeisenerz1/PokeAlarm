@@ -30,7 +30,7 @@ know of any rare spawns or raids.
    configuration/filters/index
    configuration/alarms/index
    configuration/Managers
-   configuration/Geofences
+   configuration/geofences
    configuration/Rules-Overview
 
 .. toctree::

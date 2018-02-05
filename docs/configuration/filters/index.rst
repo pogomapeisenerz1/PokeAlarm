@@ -184,7 +184,7 @@ Filter does the opposite - at least one *checked* value must be unknown to pass.
 Geofences
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-For more information on configuring your ``geofence.txt``, see the :doc:`../geofences` page.
+For more information on configuring your ``geofence.txt``, see the :doc:`../geofences.html` page.
 
 You can require an Event to be inside specific geofences for a Filter.
 
