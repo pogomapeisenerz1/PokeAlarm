@@ -13,7 +13,7 @@ This guide will walk you through configuring server settings for PokeAlarm.
 
 This guide assumes the following:
 
-1. You have correctly [installed PokeAlarm](installation).
+1. You have correctly [installed PokeAlarm](../getting-started/installation.html).
 
 2. You are using Notepad++, Nano, or Vi(m) to configure any files. Do **NOT**
 use or open any files with Notepad or TextEdit - they will break your files!
