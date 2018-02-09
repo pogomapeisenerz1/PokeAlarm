@@ -46,8 +46,8 @@ are required to enable the Facebook Pages alarm service:
 ================= =====================================
 Parameters        Description
 ================= =====================================
-type              Must be `facebook_page`
-active            `true` for alarm to be active
+type              Must be ``facebook_page``
+active            ``true`` for alarm to be active
 page_access_token Your permanent FB page access token
 ================= =====================================
 
@@ -80,11 +80,11 @@ functional alarm layout for Facebook Pages.
 
 These optional parameters are entered at the same level as ``"type":"facebook_page"``.
 
-+-------------------+-----------------------------------------------+---------+
-| Parameters        | Description                                   | Default |
-+-------------------+-----------------------------------------------+---------+
-| `startup_message` | Confirmation post when PokeAlarm initialized  | `true`  |
-+-------------------+-----------------------------------------------+---------+
++-------------------+-----------------------------------------------+----------+
+| Parameters        | Description                                   | Default  |
++-------------------+-----------------------------------------------+----------+
+| `startup_message` | Confirmation post when PokeAlarm initialized  | ``true`` |
++-------------------+-----------------------------------------------+----------+
 
 These optional parameters below are applicable to the ``monsters``, ``stops``,
 ``gyms``, ``eggs``, and ``raids`` sections of the JSON file. Check Image column to
@@ -118,11 +118,11 @@ coordinates.
 =============== ===============================================
 Parameters      Default
 =============== ===============================================
-`message`       `A wild <mon_name> has appeared!`
+`message`       ``A wild <mon_name> has appeared!``
 `image`
-`link`          `<gmaps>`
-`name`          `<mon_name>`
-`description`   `Available until <24h_time> (<time_left>)`
+`link`          ``<gmaps>``
+`name`          ``<mon_name>``
+`description`   ``Available until <24h_time> (<time_left>)``
 `caption`       None
 =============== ===============================================
 
@@ -131,11 +131,11 @@ Parameters      Default
 =============== ===============================================
 Parameters      Default
 =============== ===============================================
-`message`       `Someone has placed a lure on a Pokestop!`
+`message`       ``Someone has placed a lure on a Pokestop!``
 `image`
-`link`          `<gmaps>`
-`name`          `Lured Pokestop`
-`description`   `Lure will expire at <24h_time> (<time_left>)`
+`link`          ``<gmaps>``
+`name`          ``Lured Pokestop``
+`description`   ``Lure will expire at <24h_time> (<time_left>)``
 `caption`       None
 =============== ===============================================
 
@@ -144,11 +144,11 @@ Parameters      Default
 =============== =====================================
 Parameters      Default
 =============== =====================================
-`message`       `A Team <old_team> gym has fallen!`
+`message`       ``A Team <old_team> gym has fallen!``
 `image`
-`link`          `<gmaps>`
-`name`          `<old_team> gym fallen`
-`description`   `It is now controlled by <new_team>`
+`link`          ``<gmaps>``
+`name`          ``<old_team> gym fallen``
+`description`   ``It is now controlled by <new_team>``
 `caption`       None
 =============== =====================================
 
@@ -157,12 +157,12 @@ Parameters      Default
 ============== =======================================================
 Parameters     Default
 ============== =======================================================
-`message`      `A level <egg_lvl> raid is upcoming!`
+`message`      ``A level <egg_lvl> raid is upcoming!``
 `image`
-`link`         `<gmaps>`
-`name`         `Egg`
-`description`  `A level <egg_lvl> raid will hatch at <24h_hatch_time>
-               (<hatch_time_left>).`
+`link`         ``<gmaps>``
+`name`         ``Egg``
+`description`  ``A level <egg_lvl> raid will hatch at <24h_hatch_time>
+               (<hatch_time_left>).``
 `caption`      None
 ============== =======================================================
 
@@ -171,12 +171,12 @@ Parameters     Default
 =============== =======================================================
 Parameters      Default
 =============== =======================================================
-`message`       `Level <raid_lvl> raid available against <mon_name>!`
+`message`       ``Level <raid_lvl> raid available against <mon_name>!``
 `image`
-`link`          `<gmaps>`
-`name`          `Raid`
-`description`   `The raid is available until <24h_raid_end>
-                (<raid_time_left>).`
+`link`          ``<gmaps>``
+`name`          ``Raid``
+`description`   ``The raid is available until <24h_raid_end>
+                (<raid_time_left>).``
 `caption`       None
 =============== =======================================================
 

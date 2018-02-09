@@ -45,8 +45,8 @@ The parameters below are required to enable the Discord alarm service:
 =============== ========================================
 Parameters      Description
 =============== ========================================
-`type`          Must be `discord`
-`active`        `true` for alarm to be active
+`type`          Must be ``discord``
+`active`        ``true`` for alarm to be active
 `webhook_url` * Your Webhook URL for a specific channel
 =============== ========================================
 
@@ -81,11 +81,11 @@ optional parameters and how they are incorporated into a functional alarm layout
 
 These optional parameters are entered at the same level as ``"type":"discord"``.
 
-+-------------------+-----------------------------------------------+---------+
-| Parameters        | Description                                   | Default |
-+-------------------+-----------------------------------------------+---------+
-| `startup_message` | Confirmation post when PokeAlarm initialized  | `true`  |
-+-------------------+-----------------------------------------------+---------+
++-------------------+-----------------------------------------------+----------+
+| Parameters        | Description                                   | Default  |
++-------------------+-----------------------------------------------+----------+
+| `startup_message` | Confirmation post when PokeAlarm initialized  | ``true`` |
++-------------------+-----------------------------------------------+----------+
 
 These optional parameters below are applicable to the ``monsters``, ``stops``,
 ``gyms``, ``eggs``, and ``raids`` sections of the JSON file.
@@ -95,13 +95,13 @@ Parameters      Description                                      Default
 =============== ================================================ ==========================================
 `webhook_url`   URL of specific channel name. Overrides
                 `webhook_url` at Alarm level. Use to post only
-`disable_embed` Disables the body to make one line notifications `false`
-`username`      Username the bot should post the message as      `<mon_name>`
+`disable_embed` Disables the body to make one line notifications ``false``
+`username`      Username the bot should post the message as      ``<mon_name>``
 `icon_url`      URL path to icon
 `avatar_url`    URL path to avatar
-`title`         Notification text to begin the message           `A wild <mon_name> has appeared!`
-`url`           Link to be added to notification text            `<gmaps>`
-`body`          Additional text to be added to the message       `Available until <24h_time>(<time_left>).`
+`title`         Notification text to begin the message           ``A wild <mon_name> has appeared!``
+`url`           Link to be added to notification text            ``<gmaps>``
+`body`          Additional text to be added to the message       ``Available until <24h_time>(<time_left>).``
 `content`       Text before the Discord embed
 =============== ================================================ ===========================================
 
@@ -208,11 +208,11 @@ Below is an example of enabling the mini map for pokemon.
 =========== ====================================== ===========
 Parameters  Description                            Default
 =========== ====================================== ===========
-`enabled`   Turns the map on or off                `true`
-`width`     Width of the map                       `250` px
-`height`    Height of the map                      `150` px
-`maptype`   Link to be added to notification text  `roadmap`
-`zoom`      Specifies the zoom of the map          `15`
+`enabled`   Turns the map on or off                ``true``
+`width`     Width of the map                       ``250`` px
+`height`    Height of the map                      ``150`` px
+`maptype`   Link to be added to notification text  ``roadmap``
+`zoom`      Specifies the zoom of the map          ``15``
 =========== ====================================== ===========
 
 
@@ -241,10 +241,10 @@ formatting text `here <https://support.discordapp.com/hc/en-us/articles/21029861
 How to enable Discord webhooks
 -------------------------------------
 
-1. You must have the role permission 'Manage Webhooks', or be an administrator for the server.
+1. You must have the role permission ``Manage Webhooks``, or be an administrator for the server.
 
 2. Go into channel settings, into the Webhooks tab.
 
-3. Click "Create Webhook", 'Save'
+3. Click ``Create Webhook``, ``Save``
 
 4. The webhook URL listed is the key you need.

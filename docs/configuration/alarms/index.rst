@@ -250,10 +250,3 @@ alarms set up and ready to go, but only enabled when you want them.
 
 Visit the wiki article on :doc:`../filters/index` to limit pokemon notifications
 by distance, %IV, and moves with the ``filters.json`` file.
-
-
-.. toctree::
-   :titlesonly:
-   :glob:
-
-   *

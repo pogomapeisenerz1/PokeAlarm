@@ -41,8 +41,8 @@ These `alarm.json` parameters are required to enable the Pushbullet alarm servic
 =============== =====================================
 Parameters      Description
 =============== =====================================
-`type`          Must be `pushbullet`
-`active`        `true` for alarm to be active
+`type`          Must be ``pushbullet``
+`active`        ``true`` for alarm to be active
 `api_key`       Your Pushbullet API key
 =============== =====================================
 
@@ -78,11 +78,11 @@ functional alarm layout.
 
 These optional parameters are entered at the same level as ``"type":"pushbullet"``.
 
-+-------------------+-----------------------------------------------+---------+
-| Parameters        | Description                                   | Default |
-+-------------------+-----------------------------------------------+---------+
-| `startup_message` | Confirmation post when PokeAlarm initialized  | `true`  |
-+-------------------+-----------------------------------------------+---------+
++-------------------+-----------------------------------------------+----------+
+| Parameters        | Description                                   | Default  |
++-------------------+-----------------------------------------------+----------+
+| `startup_message` | Confirmation post when PokeAlarm initialized  | ``true`` |
++-------------------+-----------------------------------------------+----------+
 
 These optional parameters below are applicable to the ``monsters``, ``stops``,
 ``gyms``, ``eggs``, and ``raids`` sections of the JSON file.
@@ -91,9 +91,9 @@ These optional parameters below are applicable to the ``monsters``, ``stops``,
 Parameters    Description                               Default
 ============= ========================================= ===========================================
 `channel`     Channel tag of the target channel         Sends to all devices
-`title`       Notification title  attached to the push  `A wild <mon_name> has appeared!`
-`url`         Link to be attached to the push           `<gmaps>`
-`body`        Message attached to the push              `Available until <24h_time> (<time_left>).`
+`title`       Notification title  attached to the push  ``A wild <mon_name> has appeared!``
+`url`         Link to be attached to the push           ``<gmaps>``
+`body`        Message attached to the push              ``Available until <24h_time> (<time_left>).``
 ============= ========================================= ===========================================
 
 
