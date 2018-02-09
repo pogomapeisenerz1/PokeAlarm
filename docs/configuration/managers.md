@@ -27,7 +27,7 @@ In PokeAlarm, a **Manager** is a grouping of different settings. Managers
 allow you to configure multiple combinations of filters, alarms, geofences,
 and other settings behind single webserver.
 
-![Manager Example](images/v3_overview.png)
+![Manager Example](../images/managers.png)
 
 Webhooks are received by the PokeAlarm server, which then passes a copy to the
 manager. Each Manager determines (independently)if the alert passes one of the
