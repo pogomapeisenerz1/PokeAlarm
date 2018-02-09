@@ -135,6 +135,7 @@ html_static_path = ['.static', 'css']
 # Add custom .css files
 # https://github.com/snide/sphinx_rtd_theme/issues/117#issuecomment-41571653
 
+
 def setup(app):
     app.add_stylesheet("custom.css")
 
