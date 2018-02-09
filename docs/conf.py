@@ -17,7 +17,7 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 import datetime
-# import os
+import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
@@ -103,26 +103,28 @@ html_theme = 'default'
 
 
 # From:
-# * https://github.com/snide/sphinx_rtd_theme#using-this-theme-locally-then-building-on-read-the-docs
-# on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
+# * https://github.com/snide/sphinx_rtd_theme
+# using-this-theme-locally-then-building-on-read-the-docs
+# on_rtd is whether we are on readthedocs.org, this
+# line of code grabbed from docs.readthedocs.org
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
-if not on_rtd:  # only import and set the theme if we're building docs locally
+# only import and set the theme if we're building docs locally
+if not on_rtd:
     import sphinx_rtd_theme
     html_theme = 'sphinx_rtd_theme'
     html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # Suppress warnings: http://stackoverflow.com/a/28778969/2288008
 if not on_rtd:
-  import sphinx.environment
-  from docutils.utils import get_source_line
+    import sphinx.environment
+    from docutils.utils import get_source_line
 
-  def _warn_node(self, msg, node, **kwargs):
-      if not msg.startswith('nonlocal image URI found:'):
-          self._warnfunc(msg, '%s:%s' % get_source_line(node), **kwargs)
+    def _warn_node(self, msg, node, **kwargs):
+        if not msg.startswith('nonlocal image URI found:'):
+            self._warnfunc(msg, '%s:%s' % get_source_line(node), **kwargs)
 
-  sphinx.environment.BuildEnvironment.warn_node = _warn_node
-
+    sphinx.environment.BuildEnvironment.warn_node = _warn_node
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -133,8 +135,7 @@ html_static_path = ['.static', 'css']
 # Add custom .css files
 # https://github.com/snide/sphinx_rtd_theme/issues/117#issuecomment-41571653
 def setup(app):
-   app.add_stylesheet("custom.css")
-
+    app.add_stylesheet("custom.css")
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
