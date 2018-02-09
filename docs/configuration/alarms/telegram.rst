@@ -99,7 +99,7 @@ Parameters        Description                                            Default
 `sticker_notify`  Disables sticker notifications. Set to ``false``
                   if you are experiencing notification issues on Android ``false``
 `sticker_url`     Url to be used for the sticker. Must be .webp file.
-`max_attempts`    Max attempts to send for each message.                 3
+`max_attempts`    Max attempts to send for each message.                 ``"3"``
 `startup_message` Confirmation post when PokeAlarm initialized           ``true``
 ================= ====================================================== ============
 
@@ -110,9 +110,9 @@ override the alarm-level settings for this alert.
 ================ ========================================= ============================
 Parameters       Description                               Default
 ================ ========================================= ============================
-`message`        Text for the message                      ``*A wild <mon_name> has
+`message`        Text for the message                      ``"*A wild <mon_name> has
                                                            appeared!*\nAvailable until
-                                                           <24h_time> (<time_left>).``
+                                                           <24h_time> (<time_left>)."``
 `map`            Sends minimap after main message.         ``true``
 `map_notify`     Disables map notifications. Set to
                  ``false`` if you are experiencing
@@ -200,21 +200,21 @@ How to get a Telegram API Key
 -------------------------------------
 
 1. Go to `Telegram Web Client <https://telegram.org/dl/webogram>`_. Enter your
-phone number and follow the instructions to create your account.
+   phone number and follow the instructions to create your account.
 
 2. Talk to the `BotFather <https://telegram.me/botfather>`_ to create a new bot.
-Use the ``/newbot`` command and follow his instructions. It will give you an API
-Token when you are finished.
+   Use the ``/newbot`` command and follow his instructions. It will give you an
+   API Token when you are finished.
 
 3. Start a conversation with your bot. In the top left click on the menu bars,
-then click create group. Type in the name of the bot you previously created,
-then click on it when it appears below. Then click next. Type any message to
-your bot.
+   then click create group. Type in the name of the bot you previously created,
+   then click on it when it appears below. Then click next. Type any message to
+   your bot.
 
 4. Enter your bot_token in to replace the ``<BOT_TOKEN_HERE>`` in the following
-url ``https://api.telegram.org/bot<BOT_TOKEN_HERE>/getUpdates``. Then go to it,
-and find the section that says ``"chat":{"id":<CHAT_ID>``. This number is your
-chat_id.
+   url ``https://api.telegram.org/bot<BOT_TOKEN_HERE>/getUpdates``. Then go to
+   it, and find the section that says ``"chat":{"id":<CHAT_ID>``. This number
+   is your chat_id.
 
 
 How to Create a Custom Channel

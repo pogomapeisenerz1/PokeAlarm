@@ -80,7 +80,7 @@ are available to personalize your notifications.
 Multiple Destinations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The ``to_number`` field can accept either a single destination phone number
+The ``"to_number"`` field can accept either a single destination phone number
 or an array of phone numbers to send SMS messages to. This allows for
 sending SMS alerts to multiple destinations.
 
@@ -206,16 +206,16 @@ How to get the Account SID, Auth Token, and Twilio Number
 -------------------------------------
 
 1. Go to `Twilio <https://www.twilio.com>`_ and click ``Get a free API key``.
-Fill out the following form, and enter your phone number to verify your
-account.
+   Fill out the following form, and enter your phone number to verify your
+   account.
 
 2. On the left hand side, click the Home Button and then click Dashboard.
-The **Account SID** and **Auth Token** will be listed. To reveal the Auth
-Token, click on the lock next to it.
+   The **Account SID** and **Auth Token** will be listed. To reveal the Auth
+   Token, click on the lock next to it.
 
 3. Scroll down and click on ``# Phone Numbers``. Then click ``Get Started``
-to get your free number.
+   to get your free number.
 
 4. If you wish to text to different numbers, you need to register each before
-you are allowed to message them. This can be done from the ``Verified Caller
-ID's`` page.
+   you are allowed to message them. This can be done from the ``Verified Caller
+   ID's`` page.

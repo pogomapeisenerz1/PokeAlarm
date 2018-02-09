@@ -97,9 +97,9 @@ These optional parameters below are applicable to the ``monsters``, ``stops``,
 ============ ========================== ==========================================
 Parameters   Description                Default
 ============ ========================== ==========================================
-`status`     Message to post as status  ``A wild <mon_name> has appeared!
+`status`     Message to post as status  ``"A wild <mon_name> has appeared!
                                         Available until <24h_time> (<time_left>).
-                                        <gmaps>``
+                                        <gmaps>"``
 ============ ========================== ==========================================
 
 
@@ -149,24 +149,25 @@ How to get a Twitter API Key
 
 + Go to `Twitter's signup page <https://twitter.com/signup>`_.
 + Fill out all details, and **make sure to include your phone number**. This
-is a requirement for remote access, and you will need that to make the Twitter
-bot work.
+  is a requirement for remote access, and you will need that to make the Twitter
+  bot work.
 
 **Step 2: Create a Twitter app**
 
 + Go to `apps.twitter.com <https://apps.twitter.com>`_
 + Click ``Create New App`` button
 + Fill out the details on the form. You have to give your app a name,
-description, and website. This can be a simple place holder like http://www.example.com
+  description, and website. This can be a simple place holder like
+  http://www.example.com
 + Read the Developer Agreement, and check the box at the bottom if you agree.
-Then click on the ``Create your Twitter application`` button.
+  Then click on the ``Create your Twitter application`` button.
 
 **Step 3: Keys and Access tokens**
 
 + After creating your new app, you were redirected to its own page. If you
-weren’t, go to `apps.twitter.com <https://apps.twitter.com>`_ and click on your
-apps name.
+  weren’t, go to `apps.twitter.com <https://apps.twitter.com>`_ and click on
+  your apps name.
 + On the app’s page, click on the ``Keys and Access Tokens`` page.
 + At the bottom of this page, click on the ‘Create my access token’ button.
 + Take note of **Consumer Key (API Key), Consumer Secret (API Secret), Access
-Token, & Access Token Secret**. These are the are required in the Twitter Config.
+  Token, & Access Token Secret**. These are the are required in the Twitter Config.

@@ -221,17 +221,26 @@ Formatting alarms text
 
 Here is a basic guide to apply custom styles to alarm text:
 
+.. role:: boltitalic
+  :class: boltitalic
+
+.. role:: underline
+  :class: underline
+
+.. role:: strike
+  :class: strike
+
 =================================== ==================================
 Style                               Example
 =================================== ==================================
 `*italics*`                         *italics*
 `**bold**`                          **bold**
-`***bold italics***`                ** *bold italics* **
-`__underline__`                     __underline__
+`***bold italics***`                :boltitalic:`bold italics`
+`__underline__`                     :underline:`underline`
 `__*underline italics*__`           __*underline italics*__
 `__**underline bold**__`            __**underline bold**__
 `__***underline bold italics***__`  __***underline bold italics***__
-`~~Strikethrough~~`                 ~~Strikethrough~~
+`~~Strikethrough~~`                 :strike:`Strikethrough`
 =================================== ==================================
 
 You can see other options in the official Discord information about

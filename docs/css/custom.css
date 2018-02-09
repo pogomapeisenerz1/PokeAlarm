@@ -1,0 +1,16 @@
+/*
+Custom styles for PA rtd
+*/
+
+.underline {
+    text-decoration: underline;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.boltitalic {
+  font-weight: bold;
+  font-style: italic;
+}

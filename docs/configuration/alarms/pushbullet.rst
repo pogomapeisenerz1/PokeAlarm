@@ -148,8 +148,10 @@ Example: Alarm Configuration Using Optional Parameters
 How to get a Pushbullet API Key
 -------------------------------------
 
-1. Go to `Pushbullet <https://www.pushbullet.com/>`_ and click one of the ``Sign up`` options.
+1. Go to `Pushbullet <https://www.pushbullet.com/>`_ and click one of the
+   ``Sign up`` options.
 
 2. In the top right corner, click on the letter and select ``My Account``.
 
-3. Scroll down to ``Create Access Token``. Copy this token and place it in ``api_key`` parameter.
+3. Scroll down to ``Create Access Token``. Copy this token and place it in
+   ``api_key`` parameter.

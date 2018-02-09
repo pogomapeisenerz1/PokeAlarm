@@ -247,8 +247,12 @@ text `here <https://get.slack.help/hc/en-us/articles/202288908-Format-your-messa
 How to get a Slack API Key
 -------------------------------------
 
-1. Visit `slack.com <https://www.slack.com>`_. Enter your email address and click ``Create your team``. Follow the instructions to setup and activate your account.
+1. Visit `slack.com <https://www.slack.com>`_. Enter your email address and
+   click ``Create your team``. Follow the instructions to setup and activate
+   your account.
 
-2. Go to the `create a bot page <https://my.slack.com/services/new/bot>`_. Enter a username and click create.
+2. Go to the `create a bot page <https://my.slack.com/services/new/bot>`_. Enter
+   a username and click create.
 
-3. Copy the API Token given. Fill out any more information you want, and click ``Save Integration``.
+3. Copy the API Token given. Fill out any more information you want, and click
+   ``Save Integration``.
