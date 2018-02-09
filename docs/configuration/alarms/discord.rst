@@ -249,21 +249,3 @@ How to enable Discord webhooks
 3. Click ``Create Webhook``, ``Save``
 
 4. The webhook URL listed is the key you need.
-
-.. role:: boltitalic
-  :class: boltitalic
-
-.. role:: underline
-  :class: underline
-
-.. role:: underlinebold
-  :class: underlinebold
-
-.. role:: underlineitalic
-  :class: underlineitalic
-
-.. role:: underlineboita
-  :class: underlineboita
-
-.. role:: strike
-  :class: strike
