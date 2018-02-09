@@ -92,21 +92,3 @@ Indices and tables
     :target: https://github.com/PokeAlarm/PokeAlarm/issues
 .. |nbsp| unicode:: 0xA0
    :trim:
-
-.. role:: boltitalic
- :class: boltitalic
-
-.. role:: underline
- :class: underline
-
-.. role:: underlinebold
- :class: underlinebold
-
-.. role:: underlineitalic
- :class: underlineitalic
-
-.. role:: underlineboita
- :class: underlineboita
-
-.. role:: strike
- :class: strike
