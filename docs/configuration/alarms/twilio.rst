@@ -110,9 +110,9 @@ These optional parameters below are applicable to the ``monsters``, ``stops``,
 =========== ================================= ===================================
 Parameters  Description                       Default
 =========== ================================= ===================================
-`message`   Text message for pokemon updates  `"A wild <mon_name> has appeared!
+`message`   Text message for pokemon updates  ``"A wild <mon_name> has appeared!
                                               <gmaps> Available until <24h_time>
-                                              (<time_left>)."`
+                                              (<time_left>)."``
 =========== ================================= ===================================
 
 ``stops`` default values:
@@ -120,9 +120,9 @@ Parameters  Description                       Default
 =========== ================================= ===================================
 Parameters  Description                       Default
 =========== ================================= ===================================
-`message`   Text message for pokestop updates `"Someone has placed a lure on a
+`message`   Text message for pokestop updates ``"Someone has placed a lure on a
                                               Pokestop! <gmaps> Lure will expire
-                                              at <24h_time> (<time_left>)."`
+                                              at <24h_time> (<time_left>)."``
 =========== ================================= ===================================
 
 ``gyms`` default values:
@@ -130,9 +130,9 @@ Parameters  Description                       Default
 =========== ================================= ===================================
 Parameters  Description                       Default
 =========== ================================= ===================================
-`message`   Text message for gym updates      `"A Team <old_team> gym has fallen!
+`message`   Text message for gym updates      ``"A Team <old_team> gym has fallen!
                                               <gmaps> It is now controlled by
-                                              <new_team>."`
+                                              <new_team>."``
 =========== ================================= ===================================
 
 ``eggs`` default values:
@@ -140,9 +140,9 @@ Parameters  Description                       Default
 =========== ================================= =====================================
 Parameters  Description                       Default
 =========== ================================= =====================================
-`message`   Text message for egg updates      `"A level <egg_lvl> raid is incoming!
+`message`   Text message for egg updates      ``"A level <egg_lvl> raid is incoming!
                                               <gmaps> Egg hatches <24h_hatch_time>
-                                              (<hatch_time_left>)."`
+                                              (<hatch_time_left>)."``
 =========== ================================= =====================================
 
 ``raids`` default values:
@@ -150,9 +150,9 @@ Parameters  Description                       Default
 =========== ================================= =====================================
 Parameters  Description                       Default
 =========== ================================= =====================================
-`message`   Text message for raid updates     `"Level <raid_lvl> raid against
+`message`   Text message for raid updates     ``"Level <raid_lvl> raid against
                                               <mon_name>! <gmaps> Available until
-                                              <24h_raid_end> (<raid_time_left>)."`
+                                              <24h_raid_end> (<raid_time_left>)."``
 =========== ================================= =====================================
 
 
