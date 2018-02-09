@@ -99,7 +99,7 @@ to accept only the Charmander family:
           },
           "filters":{
               "best_monsters":{
-                "monsters":["Charmander", "Charmeleon", "Charizard"]
+                "monsters":["Charmander","Charmeleon","Charizard"]
               }
           }
   }
@@ -162,7 +162,7 @@ team (so I can go put them back up). I'll start with setting
 
 This filter will allow in any gym that switches from Instinct
 to any other team. Additionally, we don't want to know about when it
-switches to neutral, so we set `"ignore_neutral":"true"`. You can list
+switches to neutral, so we set `"ignore_neutral":true`. You can list
 multiple different filters in the filters section of gyms, and PA will
 check them one by one.
 
@@ -354,9 +354,9 @@ Managers run in  separate processes, so they run concurrently and
 scale well with the number of cores on your machine. However running
 too many managers can be inefficient and waste your computers resources.
 
-> With great power comes great responsibility.
+> *With great power comes great responsibility.*
 >
-> \- Uncle Ben  (about Managers, probably)
+> \- **Uncle Ben**  (about Managers, *probably*)
 
 Managers are a great tool that allow you to mix and match almost every
 setting to any filter or alarm settings. For full details on the power
@@ -374,7 +374,7 @@ You can read more about the feature on the
 I really only want monsters like Bulbasaur and Squirtle to trigger
 notifications if they have the right ivs that I am looking for. If my
 scanner goofs up and doesn't get the ivs, I don't want to be bothered.
-Setting `"is_missing_info": false` tells that filter to reject if
+Setting `"is_missing_info":false` tells that filter to reject if
 any necessary information is missing.
 
 ```json
