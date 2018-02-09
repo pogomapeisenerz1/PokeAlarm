@@ -55,6 +55,7 @@ Example: Basic Alarm Configuration using Required Parameters
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code-block:: json
+
   {
   	"active":true,
   	"type":"facebook_page",
@@ -184,6 +185,7 @@ Example: Alarm Configuration Using Optional Parameters
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code-block:: json
+
   {
     "facebook_alarm":{
       "active":true,

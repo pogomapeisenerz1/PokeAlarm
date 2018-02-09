@@ -53,6 +53,7 @@ Example: Basic Alarm Configuration using Required Parameters
 Below is how a basic Pushbullet alarm configuration would appear in ``alarms.json``.
 
 .. code-block:: json
+
   {
   	"active":true,
   	"type":"pushbullet",
@@ -100,6 +101,7 @@ Example: Alarm Configuration Using Optional Parameters
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code-block:: json
+
   {
     "pushbullet_alarm":{
       "active":true,
@@ -150,5 +152,4 @@ How to get a Pushbullet API Key
 
 2. In the top right corner, click on the letter and select ``My Account``.
 
-3. Scroll down to ``Create Access Token``. Copy this token and place it in
-api_key parameter.
+3. Scroll down to ``Create Access Token``. Copy this token and place it in ``api_key`` parameter.
