@@ -184,13 +184,13 @@ Formatting alarms text
 
 Here is a basic guide to apply custom styles to alarm text:
 
-============================= ==================================
+============================= =============================
 Style                         Example
-============================= ==================================
+============================= =============================
 `_italic text_`               *italics*
 `*bold text*`                 **bold**
-`_*bold italics*_`            ***bold italics***
-============================= ==================================
+`_*bold italics*_`            :boltitalic:`bold italics`
+============================= =============================
 
 You can see other options in the official Telegram information about
 formatting text `here <https://core.telegram.org/bots/api#formatting-options>`_.

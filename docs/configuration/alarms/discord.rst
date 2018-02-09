@@ -221,27 +221,18 @@ Formatting alarms text
 
 Here is a basic guide to apply custom styles to alarm text:
 
-.. role:: boltitalic
-  :class: boltitalic
-
-.. role:: underline
-  :class: underline
-
-.. role:: strike
-  :class: strike
-
-=================================== ==================================
+=================================== ========================================
 Style                               Example
-=================================== ==================================
+=================================== ========================================
 `*italics*`                         *italics*
 `**bold**`                          **bold**
 `***bold italics***`                :boltitalic:`bold italics`
 `__underline__`                     :underline:`underline`
-`__*underline italics*__`           __*underline italics*__
-`__**underline bold**__`            __**underline bold**__
-`__***underline bold italics***__`  __***underline bold italics***__
-`~~Strikethrough~~`                 :strike:`Strikethrough`
-=================================== ==================================
+`__*underline italics*__`           :underlineitalic:`underline italics`
+`__**underline bold**__`            :underlinebold:`underline bold`
+`__***underline bold italics***__`  :underlineboita:`underline bold italics`
+`~~strikethrough~~`                 :strike:`strikethrough`
+=================================== ========================================
 
 You can see other options in the official Discord information about
 formatting text `here <https://support.discordapp.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline->`_.
@@ -258,3 +249,21 @@ How to enable Discord webhooks
 3. Click ``Create Webhook``, ``Save``
 
 4. The webhook URL listed is the key you need.
+
+.. role:: boltitalic
+  :class: boltitalic
+
+.. role:: underline
+  :class: underline
+
+.. role:: underlinebold
+  :class: underlinebold
+
+.. role:: underlineitalic
+  :class: underlineitalic
+
+.. role:: underlineboita
+  :class: underlineboita
+
+.. role:: strike
+  :class: strike

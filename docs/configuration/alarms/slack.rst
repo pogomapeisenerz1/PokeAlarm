@@ -231,14 +231,14 @@ Formatting alarms text
 
 Here is a basic guide to apply custom styles to alarm text:
 
-================================ =================================
+================================ =============================
 Style                            Example
-================================ =================================
+================================ =============================
 `_italics_`                      *italics*
 `*bold*`                         **bold**
-`_*bold italics*_`               ***bold italics***
-`~Strikethrough~`                ~~Strikethrough~~
-================================ =================================
+`_*bold italics*_`               :boltitalic:`bold italics`
+`~strikethrough~`                :strike:`strikethrough`
+================================ =============================
 
 You can see other options in the official Slack information about formatting
 text `here <https://get.slack.help/hc/en-us/articles/202288908-Format-your-messages>`_.
