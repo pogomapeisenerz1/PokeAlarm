@@ -271,9 +271,7 @@ Token that appears in the ``Access Token`` field is your short-lived access toke
 Following `these instructions <https://developers.facebook.com/docs/facebook-login/access-tokens#extending>`_
 from the Facebook docs, make a GET request to
 
-.. code:: none
-
-  https://graph.facebook.com/v2.2/oauth/access_token?grant_type=fb_exchange_token&client_id={app_id}&client_secret={app_secret}&fb_exchange_token={short_lived_token}
+``https://graph.facebook.com/v2.2/oauth/access_token?grant_type=fb_exchange_token&client_id={app_id}&client_secret={app_secret}&fb_exchange_token={short_lived_token}``
 
 entering in your app's ID and secret, generated from step 0, and the
 short-lived token, generated in the previous step. Be sure to remove the curly
@@ -285,9 +283,7 @@ Since it's a GET request, you can just go to the URL in your browser.
 
 The response should look like this:
 
-.. code:: none
-
-  access_token=ABC123&expires=5182959
+``access_token=ABC123&expires=5182959``
 
 ``ABC123`` will be your long-lived access token. You can put it into the
 `Access Token Debugger <https://developers.facebook.com/tools/debug/accesstoken>`_
@@ -298,9 +294,7 @@ Under ``Expires`` it should have something like ``2 months``.
 
 Using the long-lived access token, make a GET request to
 
-.. code:: none
-
-  https://graph.facebook.com/v2.2/me?access_token={long_lived_access_token}
+``https://graph.facebook.com/v2.2/me?access_token={long_lived_access_token}``
 
 Be sure to remove the curly braces ``{}`` when replacing values. The **id** field
 is your account ID. You'll need it for the next step.
@@ -309,9 +303,7 @@ is your account ID. You'll need it for the next step.
 
 Make a GET request to
 
-.. code:: none
-
-  https://graph.facebook.com/v2.2/{account_id}/accounts?access_token={long_lived_access_token}
+``https://graph.facebook.com/v2.2/{account_id}/accounts?access_token={long_lived_access_token}``
 
 Be sure to remove the curly braces ``{}`` when replacing values. The JSON
 response should have a **data** field under which is an array of items the user
