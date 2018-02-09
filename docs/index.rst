@@ -65,14 +65,23 @@ know of any rare spawns or raids.
    :caption: Guides
    :glob:
 
-   guides/*
+   Getting Started <guides/getting-started-guide>
+   JSON Formatting Help <guides/json-formatting>
+   3.5 -> 3.6 Alarm Upgrade Tool <guides/upgrade-tool>
+   Bug Reports / Feedback <guides/bug-feedback>
 
 .. toctree::
    :maxdepth: 1
    :caption: Other
    :glob:
 
-   miscellaneous/*
+   Webhook Standards <miscellaneous/webhook-standard>
+   Webhook Tester <miscellaneous/webhook-tester>
+   Patch Notes <miscellaneous/patch-notes>
+   Caching <miscellaneous/object-caching>
+   Docker <miscellaneous/docker>
+   Location Services <miscellaneous/location-services>
+   Contributing <miscellaneous/contributing>
 
 
 Indices and tables

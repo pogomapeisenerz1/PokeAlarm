@@ -14,7 +14,8 @@ This guide assumes:
 
 1. You have a functional PokeAlarm installation
 2. You have a basic understanding of how to manage binary files
-3. You have read and understood the available Command Line Arguments in the :doc:`../configuration/server-settings` wiki
+3. You have read and understood the available Command Line Arguments in
+   the :doc:`../configuration/server-settings` wiki
 
 Introduction
 -------------------------------------
@@ -30,13 +31,13 @@ Caching Methods
 
 There are currently two methods available for object caching:
 
-+-------------------------+------------------------------------------------------------------+
-| Caching Method          | Description                                                      |
-+-------------------------+------------------------------------------------------------------+
-| `mem`                   | Caches data to memory only, information is lost between sessions |
-+-------------------------+------------------------------------------------------------------+
-| `file`                  | Caches data to binary files located in the `cache` folder        |
-+-------------------------+------------------------------------------------------------------+
++--------------------+------------------------------------------------------------------+
+| Caching Method     | Description                                                      |
++--------------------+------------------------------------------------------------------+
+| `mem`              | Caches data to memory only, information is lost between sessions |
++--------------------+------------------------------------------------------------------+
+| `file`             | Caches data to binary files located in the `cache` folder        |
++--------------------+------------------------------------------------------------------+
 
 .. note:: If no cache-type is selected, ``mem`` will be chosen as the default.
 
@@ -68,8 +69,8 @@ an explicitly unique name.
 Clearing Cache
 -------------------------------------
 
-* **Memory Cache** is cleared whenever PA exits for any reason.
-* **File Caches** may be cleared by deleting the ``cache/<manager_name>.cache``
++ **Memory Cache** is cleared whenever PA exits for any reason.
++ **File Caches** may be cleared by deleting the ``cache/<manager_name>.cache``
   file that corresponds to the manager you wish to clear the cache for. (To
   clear all cached data, delete all files in the cache folder). PA will need
   to be restarted once cache files are erased.
