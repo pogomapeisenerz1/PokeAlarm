@@ -226,7 +226,7 @@ Style                               Example
 =================================== ==================================
 `*italics*`                         *italics*
 `**bold**`                          **bold**
-`***bold italics***`                ***bold italics***
+`***bold italics***`                ** *bold italics* **
 `__underline__`                     __underline__
 `__*underline italics*__`           __*underline italics*__
 `__**underline bold**__`            __**underline bold**__
@@ -241,7 +241,8 @@ formatting text `here <https://support.discordapp.com/hc/en-us/articles/21029861
 How to enable Discord webhooks
 -------------------------------------
 
-1. You must have the role permission ``Manage Webhooks``, or be an administrator for the server.
+1. You must have the role permission ``Manage Webhooks``, or be an administrator
+   for the server.
 
 2. Go into channel settings, into the Webhooks tab.
 

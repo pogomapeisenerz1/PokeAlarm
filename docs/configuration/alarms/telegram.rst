@@ -119,7 +119,7 @@ Parameters       Description                               Default
                  notification issues on Android            ``false``
 `venue`          Sends location in main message.*          ``false``
 `venue_notify`   Disables venue notifications. Set to
-                 ``false` if you are experiencing
+                 ``false`` if you are experiencing
                  notification issues on Android            ``true``
 `sticker`        Sends images as stickers in the message   ``true``
 `sticker_notify` Disables sticker notifications. Set to
