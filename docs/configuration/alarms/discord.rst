@@ -5,6 +5,24 @@ Discord
    :depth: 2
    :local:
 
+.. role:: boltitalic
+  :class: boltitalic
+
+.. role:: underline
+  :class: underline
+
+.. role:: underlinebold
+  :class: underlinebold
+
+.. role:: underlineitalic
+  :class: underlineitalic
+
+.. role:: underlineboita
+  :class: underlineboita
+
+.. role:: strike
+  :class: strike
+
 
 Prerequisites
 -------------------------------------

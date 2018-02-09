@@ -250,21 +250,3 @@ alarms set up and ready to go, but only enabled when you want them.
 
 Visit the wiki article on :doc:`../filters/index` to limit pokemon notifications
 by distance, %IV, and moves with the ``filters.json`` file.
-
-.. role:: boltitalic
- :class: boltitalic
-
-.. role:: underline
- :class: underline
-
-.. role:: underlinebold
- :class: underlinebold
-
-.. role:: underlineitalic
- :class: underlineitalic
-
-.. role:: underlineboita
- :class: underlineboita
-
-.. role:: strike
- :class: strike
