@@ -57,7 +57,7 @@ file to set up their alarms.
 This same configuration can be accomplished via the following in the configuration file:
 
 ```ini
-manager_count: 1
+manager_count: 3
 filters: [ common.json, rares.json, uncommon.json ]
 alarms: alarms.json
 ```

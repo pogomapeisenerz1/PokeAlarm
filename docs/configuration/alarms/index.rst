@@ -24,9 +24,10 @@ you'd like (e.g., Slack, Twitter, Telegram), and as many of each message
 service that you would like (e.g., 3 Slack channels, 10 Twitter feeds, 5
 Telegrams.)
 
-You add alarms to the PokeAlarm alarm configuration file, which is `alarms.json` by default.
+You add alarms to the PokeAlarm alarm configuration file, which is ``alarms.json``
+by default.
 
-`alarms.json` is where:
+``alarms.json`` is where:
 
 1. Alarms are enable/disabled
 2. Notification messages for each alarm are customized
@@ -43,14 +44,14 @@ The alarm configuration file follows the JSON format and has six sections:
 Editing or Adding Alarms
 -------------------------------------
 
-To add, edit, or remove alarms, edit the `alarms.json` file. If you haven't
-created an `alarms.json` file before, you can make a copy of
-`alarms.json.example` and rename it to `alarms.json`. PokeAlarm uses
-`alarms.json` by default.
+To add, edit, or remove alarms, edit the ``alarms.json`` file. If you haven't
+created an ``alarms.json`` file before, you can make a copy of
+``alarms.json.example`` and rename it to ``alarms.json``. PokeAlarm uses
+``alarms.json`` by default.
 
 Alarms are represented as a list of JSON Objects, inside an array labeled
 alarms. Each alarm should be surrounded by curly brackets, and the space in
-between fields should have a comma. Your default `alarms.json` looks like this:
+between fields should have a comma. Your default ``alarms.json`` looks like this:
 
 .. code-block:: json
   {
@@ -100,7 +101,7 @@ between fields should have a comma. Your default `alarms.json` looks like this:
   }
 
 Each alarm requires some sort of API key or URL so that PokeAlarm can gain
-permissions to post.  Visit the wiki page of the service you are setting up to
+permissions to post. Visit the wiki page of the service you are setting up to
 make sure you have the proper config.
 
 Each alarm setting runs independent of the other alarms, so changes to one
@@ -117,9 +118,9 @@ your own. You may customize as few or as many fields as you want - any field
 not present in your config will reset to default.
 
 In order to customize an Alert, you must specify what type of alert you want to
-config: Either `monsters`, `stops`, `gyms`, `eggs`, or `raids`. Each of these
-has different defaults available. The following is a config where a portion of
-the Alert has been updated:
+config: Either ``monsters``, ``stops``, ``gyms``, ``eggs``, or ``raids``. Each
+of these has different defaults available. The following is a config where a
+portion of the alert has been updated:
 
 .. code-block:: json
 
@@ -130,19 +131,19 @@ the Alert has been updated:
       "api_key":"YOUR_API_KEY_HERE",
       "monsters":{
         "channel":"Pokemon",
-  		  "username":"<mon_name>",
-  		  "title":"A GIANT <mon_name> jumped out of the grass!",
-  		  "body":"Available until <24h_time> (<time_left>)."
+        "username":"<mon_name>",
+        "title":"A GIANT <mon_name> jumped out of the grass!",
+        "body":"Available until <24h_time> (<time_left>)."
       },
       "stops":{
-  		  "channel":"Pokestop",
-  		  "title":"Someone  has placed a lure on a Pokestop!",
-  		  "body":"Better hurry! The lure only has <time_left> remaining!"
+        "channel":"Pokestop",
+        "title":"Someone  has placed a lure on a Pokestop!",
+        "body":"Better hurry! The lure only has <time_left> remaining!"
       }
     }
   }
 
-For more information about Dynamic Text Substitutions (the `<text>`), please
+For more information about Dynamic Text Substitutions (the ``<text>``), please
 see the :doc:`../events/index` wiki.
 
 For what service has what fields, please check the specific wiki page for
@@ -223,11 +224,7 @@ Below is a working alarm configuration for Discord and Slack:
               "url":"<gmaps>",
               "body":"expires at <24h_time> (<time_left>).",
               "map":{
-                  "enabled":false,
-                  "width":"330",
-                  "height":"250",
-                  "maptype":"roadmap",
-                  "zoom":"15"
+                  "enabled":false
               }
           },
           "gyms":{
@@ -247,12 +244,12 @@ Below is a working alarm configuration for Discord and Slack:
       }
   }
 
-Note both have `"active":true` set, meaning both alarms are enabled. Setting
-either to "false" will disable the specific alarm.. This allows you to have
+Note both have ``"active":true`` set, meaning both alarms are enabled. Setting
+either to ``false`` will disable the specific alarm. This allows you to have
 alarms set up and ready to go, but only enabled when you want them.
 
 Visit the wiki article on :doc:`../filters/index` to limit pokemon notifications
-by distance, %IV, and moves with the `filters.json` file.
+by distance, %IV, and moves with the ``filters.json`` file.
 
 
 .. toctree::

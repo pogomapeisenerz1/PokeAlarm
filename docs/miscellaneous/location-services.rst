@@ -1,5 +1,5 @@
-Google Maps API Key
-=======
+Location Services
+=====================================
 
 .. contents:: Table of Contents
    :depth: 2

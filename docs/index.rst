@@ -16,23 +16,23 @@ know of any rare spawns or raids.
 .. toctree::
    :titlesonly:
    :maxdepth: 1
-   :caption: Getting Started:
+   :caption: Getting Started
 
    getting-started/installation
    getting-started/faq
 
 .. toctree::
    :maxdepth: 1
-   :caption: Configuration:
+   :caption: Configuration
 
    configuration/server-settings
    configuration/managers
-   configuration/geofences
    configuration/rules-overview
+   configuration/geofences
 
 .. toctree::
    :maxdepth: 1
-   :caption: Events:
+   :caption: Events
 
    Overview <configuration/events/index>
    Monsters <configuration/events/monster-events>
@@ -43,26 +43,33 @@ know of any rare spawns or raids.
 
 .. toctree::
    :maxdepth: 1
-   :caption: Filters:
+   :caption: Filters
 
    Overview <configuration/filters/index>
 
 .. toctree::
    :maxdepth: 1
-   :caption: Alarms:
+   :caption: Alarms
 
    Overview <configuration/alarms/index>
+   Discord <configuration/alarms/discord>
+   Facebook <configuration/alarms/facebook-pages>
+   Pushbullet <configuration/alarms/pushbullet>
+   Slack <configuration/alarms/slack>
+   Telegram <configuration/alarms/telegram>
+   Twilio <configuration/alarms/twilio>
+   Twitter <configuration/alarms/twitter>
 
 .. toctree::
    :maxdepth: 1
-   :caption: Guides:
+   :caption: Guides
    :glob:
 
    guides/*
 
 .. toctree::
    :maxdepth: 1
-   :caption: Other:
+   :caption: Other
    :glob:
 
    miscellaneous/*

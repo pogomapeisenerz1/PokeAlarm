@@ -1,8 +1,7 @@
 Discord
 =====================================
 
-.. contents::
-   :caption: Table of Contents
+.. contents:: Table of Contents
    :depth: 2
    :local:
 
@@ -12,9 +11,9 @@ Prerequisites
 
 This guide assumes
 
-+ You are familiar with `JSON formatting <https://www.w3schools.com/js/js_json_intro.asp>`_
-+ You have read and understood the :doc:`../alarms/index` wiki
-+ You are comfortable with the layout of `alarms.json`.
++ You are familiar with `JSON formatting <https://www.w3schools.com/js/js_json_intro.asp>`_.
++ You have read and understood the :doc:`index` wiki.
++ You are comfortable with the layout of ``alarms.json``.
 + You are using the latest version of PokeAlarm.
 
 Please familiarize yourself with all of the above before proceeding.
@@ -82,11 +81,11 @@ optional parameters and how they are incorporated into a functional alarm layout
 
 These optional parameters are entered at the same level as ``"type":"discord"``.
 
-+-------------------+--------------------------------------------------+
-| Parameters        | Description                                      |
-+-------------------+--------------------------------------------------+
-| `startup_message` | Confirmation post when PokeAlarm initialized     |
-+-------------------+--------------------------------------------------+
++-------------------+-----------------------------------------------+---------+
+| Parameters        | Description                                   | Default |
++-------------------+-----------------------------------------------+---------+
+| `startup_message` | Confirmation post when PokeAlarm initialized  | `true`  |
++-------------------+-----------------------------------------------+---------+
 
 These optional parameters below are applicable to the ``monsters``, ``stops``,
 ``gyms``, ``eggs``, and ``raids`` sections of the JSON file.
@@ -178,7 +177,7 @@ Example: Alarm Configuration Using Optional Parameters
 Mini Map Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-![](../../images/minimap.png)
+.. image:: ../../images/minimap.png
 
 You can enable a small Google Static Maps image after your post, showing the
 location of the alarmed pokemon, gym, pokestop, egg, or raid. This is done by
