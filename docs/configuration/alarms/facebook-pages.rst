@@ -257,14 +257,14 @@ for all of these steps except where otherwise stated.
 
 1. Go to the `Graph API Explorer <https://developers.facebook.com/tools/explorer>`_.
 2. Select the application you want to get the access token for by clicking on
-the ``Graph API Explorer`` dropdown near the top right.
+   the ``Graph API Explorer`` dropdown near the top right.
 3. Click ``Get Token`` dropdown and choose ``Get User Access Token``.
 4. In the pop-up, under the ``Events, Groups & Pages`` section, check
-``manage_pages`` and ``publish_pages``.
+   ``manage_pages`` and ``publish_pages``.
 5. Click ``Get Access Token``.
 6. Grant access from a Facebook account that has access to manage the target
-page. Note that if this user loses access the final, never-expiring access
-token will likely stop working.
+   page. Note that if this user loses access the final, never-expiring access
+   token will likely stop working.
 
 Token that appears in the ``Access Token`` field is your short-lived access token.
 
