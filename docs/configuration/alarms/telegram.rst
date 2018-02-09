@@ -48,7 +48,7 @@ These ``alarm.json`` parameters are required to enable the Telegram alarm servic
 =============== ===================================
 Parameters      Description
 =============== ===================================
-`type`          Must be ``telegram``
+`type`          Must be ``"telegram"``
 `active`        ``true`` for alarm to be active
 `bot_token`     Your Bot Token from Telegram
 `chat_id`       Your chat's id from Telegram

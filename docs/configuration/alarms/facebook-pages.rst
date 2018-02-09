@@ -46,7 +46,7 @@ are required to enable the Facebook Pages alarm service:
 ================= =====================================
 Parameters        Description
 ================= =====================================
-type              Must be ``facebook_page``
+type              Must be ``"facebook_page"``
 active            ``true`` for alarm to be active
 page_access_token Your permanent FB page access token
 ================= =====================================

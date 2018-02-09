@@ -45,7 +45,7 @@ The parameters below are required to enable the Discord alarm service:
 =============== ========================================
 Parameters      Description
 =============== ========================================
-`type`          Must be ``discord``
+`type`          Must be ``"discord"``
 `active`        ``true`` for alarm to be active
 `webhook_url` * Your Webhook URL for a specific channel
 =============== ========================================
@@ -205,15 +205,15 @@ Below is an example of enabling the mini map for pokemon.
 	},
 
 
-=========== ====================================== ===========
+=========== ====================================== =============
 Parameters  Description                            Default
-=========== ====================================== ===========
+=========== ====================================== =============
 `enabled`   Turns the map on or off                ``true``
-`width`     Width of the map                       ``250`` px
-`height`    Height of the map                      ``150`` px
-`maptype`   Link to be added to notification text  ``roadmap``
-`zoom`      Specifies the zoom of the map          ``15``
-=========== ====================================== ===========
+`width`     Width of the map                       ``"250"`` px
+`height`    Height of the map                      ``"150"`` px
+`maptype`   Link to be added to notification text  ``"roadmap"``
+`zoom`      Specifies the zoom of the map          ``"15"``
+=========== ====================================== =============
 
 
 Formatting alarms text

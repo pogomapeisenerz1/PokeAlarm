@@ -41,7 +41,7 @@ These `alarm.json` parameters are required to enable the Pushbullet alarm servic
 =============== =====================================
 Parameters      Description
 =============== =====================================
-`type`          Must be ``pushbullet``
+`type`          Must be ``"pushbullet"``
 `active`        ``true`` for alarm to be active
 `api_key`       Your Pushbullet API key
 =============== =====================================

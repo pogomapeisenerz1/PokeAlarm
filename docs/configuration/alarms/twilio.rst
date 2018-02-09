@@ -42,7 +42,7 @@ Required Parameters
 =============== ======================================
 Parameters      Description
 =============== ======================================
-`type`          Must be ``twilio``
+`type`          Must be ``"twilio"``
 `active`        ``true`` for alarm to be active
 `account_sid`   Your Account SID from Twilio
 `auth_token`    Your Auth Token from Twilio
@@ -110,7 +110,7 @@ These optional parameters below are applicable to the ``monsters``, ``stops``,
 =========== ================================= ===================================
 Parameters  Description                       Default
 =========== ================================= ===================================
-|`message`  Text message for pokemon updates	``"A wild <mon_name> has appeared!
+`message`   Text message for pokemon updates	``"A wild <mon_name> has appeared!
                                               <gmaps> Available until <24h_time>
                                               (<time_left>)."``
 =========== ================================= ===================================

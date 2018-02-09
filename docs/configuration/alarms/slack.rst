@@ -51,7 +51,7 @@ These parameters below are required to enable the Slack alarm service:
 ============ =============== ======================================
 Parameters   Default         Description
 ============ =============== ======================================
-`type`       ``slack``       ``slack``
+`type`       ``"slack"``     Name of service
 `active`     ``false``       ``true`` for alarm to be active
 `api_key`                    Your Slack API key
 `channel`    ``"general"``   Default channel to post notifications
@@ -219,10 +219,10 @@ Below is an example of enabling the mini map for pokemon:
 Parameters      Description                                Default
 =============== ========================================== ============
 `enabled`       Turns the map on or off                    ``true``
-`width`         Width of the map                           ``250`` px
-`height`        Height of the map                          ``150`` px
-`maptype`       Link to be added to notification text      ``roadmap``
-`zoom`          Specifies the zoom of the map              ``15``
+`width`         Width of the map                           ``"250"`` px
+`height`        Height of the map                          ``"150"`` px
+`maptype`       Link to be added to notification text      ``"roadmap"``
+`zoom`          Specifies the zoom of the map              ``"15"``
 =============== ========================================== ============
 
 

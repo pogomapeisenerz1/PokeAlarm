@@ -6,16 +6,6 @@ Twitter
    :local:
 
 
-* [Prerequisites](#prerequisites)
-* [Introduction](#introduction)
-* [Basic Config](#basic-config)
-  * [Required Parameters](#required-parameters)
-  * [Example: Basic Alarm Configuration using Required Parameters](#example-basic-alarm-configuration-using-required-parameters)
-* [Advanced Config](#advanced-config)
-  * [Optional Parameters](#optional-parameters)
-  * [Example: Alarm Configuration Using Optional Parameters](#example-alarm-configuration-using-optional-parameters)
-* [How to Get a Twitter API Key](#how-to-get-a-twitter-api-key)
-
 Prerequisites
 -------------------------------------
 
@@ -53,7 +43,7 @@ These ``alarms.json`` parameters are required to enable the Twitter alarm servic
 ================= ==================================
 Parameters        Description
 ================= ==================================
-`type`            Must be ``twitter``
+`type`            Must be ``"twitter"``
 `active`          ``true`` for alarm to be active
 `access_token`    Your twitter access token
 `access_secret`   Your twitter access secret
