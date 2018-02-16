@@ -120,7 +120,7 @@ some suggestions on optimization.
 doesn't know the correct information. This could be a variety of reasons
 
 #### Map images aren't showing up correctly... What can I do?
-* Make sure you have added a [Google API Key](../miscellaneous/gmaps-api.html)
+* Make sure you have added a [Location Services](../miscellaneous/location-services.html)
 and have the Static Maps API enabled. If you already have it enabled, make
 sure that you haven't hit the limit for free users.
 

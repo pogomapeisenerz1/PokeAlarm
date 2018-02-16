@@ -1,7 +1,6 @@
 Installation
 =====================================
 
-
 This guide will walk you through installing a fresh copy of PokeAlarm.
 
 .. contents:: Table of Contents
@@ -78,9 +77,9 @@ Updating
 
 .. warning:: Updating PokeAlarm can be complicated if you edit files you aren't
    supposed to. For this reason, we recommend not to edit any files ending in
-   '.py'.
+   ``.py``.
 
-1. Check the :doc:`../miscellaneous/Patch-Notes` for any big changes
+1. Check the :doc:`../miscellaneous/patch-notes` for any big changes
    that might break your current configuration.
 2. Open up a command line and change directory to the root folder of your
    install.

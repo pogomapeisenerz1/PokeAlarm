@@ -21,6 +21,7 @@ a gym changing teams, or a new raid appearing. There are 5 different categories
 for Events, each with different information:
 
 .. toctree::
+   :titlesonly:
    :maxdepth: 1
 
    monster-events
@@ -36,8 +37,8 @@ Dynamic Text Substitutions
 
 Dynamic Text Substitutions (or DTS) are special text that can be used to
 customize notifications based on the triggered Event. These values are
-surrounded with diamond brackets (`<` and `>`) and will by substituted with a
-value based on the Event in question. For example, a notification with the
+surrounded with diamond brackets (``<`` and ``>``) and will by substituted with
+a value based on the Event in question. For example, a notification with the
 following text:
 
 .. code-block:: none

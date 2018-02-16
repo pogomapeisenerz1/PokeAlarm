@@ -13,7 +13,7 @@
 
 Geofencing will restrict PokeAlarm alerts to a defined geographical area.
 The area is defined by a list of at least 2 sets of latitude and longitude
-coordinates.  You may provide as many coordinates as you'd like to define
+coordinates. You may provide as many coordinates as you'd like to define
 your area of interest, provided that these sets are in the order that
 defines your polygon.
 
@@ -81,7 +81,7 @@ If successful, you should receive a confirmation in your log:
 For our Central Park example, all 4 points encompass the entire park.
 The visual of the geofenced area is below.
 The red marker in the image denotes a selected location, here,
-"The Pond, Central Park, NY".
+`The Pond, Central Park, NY`.
 
 ![](images/geofence_central_park_bounded.png)
 
@@ -178,7 +178,7 @@ coordinates. For example:
 
 In this example, you can configure an individual alarm to only check one
 geofence from your geofence.txt. This filter will only check the geofence
-named "Central Park, NY:
+named `Central Park, NY`:
 
 ```
 "filter_central_park": {
@@ -194,7 +194,7 @@ Or check the 2 geofence zones with:
 }
 ```
 
-Additionally, you can use "geofences": [ "all" ] as a shortcut for checking
+Additionally, you can use `"geofences": [ "all" ]` as a shortcut for checking
 all geofences in a geofence file. Example:
 
 ```
@@ -227,5 +227,5 @@ To use it:
 coordinate list.
 3. Complete your geofence area by clicking the original point, the last
 point, or double clicking.
-4. Click "Show Coordinates", Assign a name - ie: [Seattle] and then
-click "Copy to Clipboard"
+4. Click `Show Coordinates`, Assign a name - ie: [Seattle] and then
+click `Copy to Clipboard`

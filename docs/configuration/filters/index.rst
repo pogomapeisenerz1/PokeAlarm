@@ -29,13 +29,14 @@ When PA finds a matching Filter, it triggers a notification.
 There are 5 different types of Filters, each matching a category of Events:
 
 .. toctree::
+   :titlesonly:
    :maxdepth: 1
 
    Monsters <monster-filters>
-   Stop-Filters
-   Gym-Filters
-   Egg-Filters
-   Stop-Filters
+   Stops <stop-filters>
+   Gyms <gym-filters>
+   Eggs <egg-filters>
+   Raids <raid-filters>
 
 Restrictions
 -------------------------------------
@@ -48,7 +49,7 @@ with no restrictions would allow any Event to pass:
 
 .. code-block:: json
 
-    "all-filter-name": {
+    "all-filter-name":{
     }
 
 .. note:: Filters will *only* check an Event's value if a restriction requires
@@ -61,16 +62,16 @@ following would only allow Monsters of certain species:
 
 .. code-block:: json
 
-    "only-starters": {
-      "monsters": [ "Charmander", "Squirtle", "Bulbasaur"]
+    "only-starters":{
+      "monsters":["Charmander","Squirtle","Bulbasaur"]
     }
 
 Additional restrictions are added in the same way:
 
 .. code-block:: json
 
-    "only-high-iv-lvl-starters": {
-      "monsters": [ "Charmander", "Squirtle", "Bulbasaur"],
+    "only-high-iv-lvl-starters":{
+      "monsters":["Charmander","Squirtle","Bulbasaur"],
       "min_iv": 90.0,
       "min_lvl": 15
     }
@@ -85,7 +86,7 @@ Filters File
 
   A *filters file* (often refereed to as ``filters.json``) is a file containing
   then Filters that PA uses. By default, PA loads the Filter from the
-  `filters.json` located in the base folder of the project. See the
+  ``filters.json`` located in the base folder of the project. See the
   :doc:`../server-settings` page for instructions on specifying the file by
   a different name. This file must contain a single JSON object to load
   successfully:
@@ -103,15 +104,15 @@ by default.
 .. code-block:: json
 
     {
-      "monsters": {
+      "monsters":{
       },
-      "stops": {
+      "stops":{
       },
-      "gyms": {
+      "gyms":{
       },
-      "eggs": {
+      "eggs":{
       },
-      "raids": {
+      "raids":{
       }
     }
 
@@ -126,7 +127,7 @@ example, adding  ``"min_iv": 90`` in the monsters defaults section will add that
 restriction to all Filters - unless they already have a ``min_iv`` restriction.
 
 .. note:: You can use ``null`` to ignore a default value. Even with a default
-          ``"monsters"`` restriction set, ``"monsters": null`` inside a filter
+          ``"monsters"`` restriction set, ``"monsters":null`` inside a filter
           acts as if that the monster restriction is not set.
 
 The ``filters`` section is simply a JSON object containing the Filters,
@@ -165,12 +166,12 @@ Missing Information
 As described on the :doc:`../events/index` page, sometimes an Event is missing
 information. Erring on the side of caution, a Filter will skip a restriction if
 the information needed to check it is missing. If your use the ``min_iv`` info,
-but the IV is 'unknown' for any reason, then by default Filter will skip
+but the IV is ``unknown`` for any reason, then by default Filter will skip
 checking a restriction as if it wasn't specified.
 
 The ``is_missing_info`` restriction can be used to require information to be
-missing or not. When ``"is_missing_info": false`` is set, the Filter requires
-all *checked* values to be known. When ``"is_missing_info": true`` is set, the
+missing or not. When ``"is_missing_info":false`` is set, the Filter requires
+all *checked* values to be known. When ``"is_missing_info":true`` is set, the
 Filter does the opposite - at least one *checked* value must be unknown to pass.
 
 .. warning:: The ``is_missing_info`` restriction only affects *checked*
@@ -192,8 +193,8 @@ as defined in:
 
 .. code-block:: json
 
-  "filter_name_1": {
-      "geofences": [ "fence1", "fence2" ]
+  "filter_name_1":{
+      "geofences":["fence1","fence2"]
   }
 
 
@@ -210,8 +211,8 @@ just have to configure the geofences like this:
 
 .. code-block:: json
 
-  "filter_name_1": {
-      "geofences": [ "all" ]
+  "filter_name_1":{
+      "geofences":["all"]
   }
 
 .. _custom_dts_filters:
@@ -230,13 +231,13 @@ following configuration:
 
 .. code-block:: json
 
-      "filters": {
-          "filter_name_1": {
-              "monsters": [ 1, 2, 3 ],
-              "custom_dts": { "family": "Grass starters" }
+      "filters":{
+          "filter_name_1":{
+              "monsters":[1,2,3],
+              "custom_dts":{"family":"Grass starters"}
           },
-          "filter_name_2": {
-              "monsters": [ 4, 5, 6 ],
-              "custom_dts": { "family": "Fire starters" }
+          "filter_name_2":{
+              "monsters":[4,5,6],
+              "custom_dts":{"family":"Fire starters"}
           }
       }

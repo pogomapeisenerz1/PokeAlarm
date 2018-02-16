@@ -9,10 +9,10 @@ Stops Events
 Prerequisites
 -------------------------------------
 
-This page assumes:
+This pages assumes the following:
 
-1. You have a working scanner.
-2. You read and understood the [DTS](Dynamic-Text-Substitution) page.
+1. You understand what :doc:`index` are.
+2. You understand how :ref:`events_dts` function.
 3. You are using the latest version of PokeAlarm.
 
 Description

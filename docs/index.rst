@@ -17,13 +17,16 @@ know of any rare spawns or raids.
    :titlesonly:
    :maxdepth: 1
    :caption: Getting Started
+   :glob:
 
    getting-started/installation
    getting-started/faq
 
 .. toctree::
+   :titlesonly:
    :maxdepth: 1
    :caption: Configuration
+   :glob:
 
    configuration/server-settings
    configuration/managers
@@ -31,8 +34,10 @@ know of any rare spawns or raids.
    configuration/geofences
 
 .. toctree::
+   :titlesonly:
    :maxdepth: 1
    :caption: Events
+   :glob:
 
    Overview <configuration/events/index>
    Monsters <configuration/events/monster-events>
@@ -42,14 +47,18 @@ know of any rare spawns or raids.
    Raids <configuration/events/raid-events>
 
 .. toctree::
+   :titlesonly:
    :maxdepth: 1
    :caption: Filters
+   :glob:
 
    Overview <configuration/filters/index>
 
 .. toctree::
+   :titlesonly:
    :maxdepth: 1
    :caption: Alarms
+   :glob:
 
    Overview <configuration/alarms/index>
    Discord <configuration/alarms/discord>
@@ -61,6 +70,7 @@ know of any rare spawns or raids.
    Twitter <configuration/alarms/twitter>
 
 .. toctree::
+   :titlesonly:
    :maxdepth: 1
    :caption: Guides
    :glob:
@@ -71,6 +81,7 @@ know of any rare spawns or raids.
    Bug Reports / Feedback <guides/bug-feedback>
 
 .. toctree::
+   :titlesonly:
    :maxdepth: 1
    :caption: Other
    :glob:
