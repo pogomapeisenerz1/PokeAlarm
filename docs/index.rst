@@ -53,6 +53,11 @@ know of any rare spawns or raids.
    :glob:
 
    Overview <configuration/filters/index>
+   Monsters <configuration/filters/monster-filters>
+   Stops <configuration/filters/stop-filters>
+   Gyms <configuration/filters/gym-filters>
+   Eggs <configuration/filters/egg-filters>
+   Raids <configuration/filters/raid-filters>
 
 .. toctree::
    :titlesonly:
