@@ -91,8 +91,8 @@ PokeAlarm will then notify you of pokemon within the shaded area.
 or will not apply to alerts. Example:
 
 ```
-"filter_tiny_central_park": {
-    "geofences": [ "Central Park, NY" ]
+"filter_tiny_central_park":{
+    "geofences":["Central Park, NY"]
 }
 ```
 
@@ -131,8 +131,8 @@ file: `geofence_coronado.txt`
 And remember to set filters to apply geofence like this example:
 
 ```
-"filter_coronado": {
-    "geofences": [ "Coronado, CA" ]
+"filter_coronado":{
+    "geofences":["Coronado, CA"]
 }
 ```
 
@@ -182,24 +182,24 @@ named `Central Park, NY`:
 
 ```
 "filter_central_park": {
-    "geofences": [ "Central Park, NY" ]
+    "geofences":["Central Park, NY"]
 }
 ```
 
 Or check the 2 geofence zones with:
 
 ```
-"filter_central_park_coronado": {
-    "geofences": [ "Central Park, NY", "Coronado, CA" ]
+"filter_central_park_coronado":{
+    "geofences":["Central Park, NY","Coronado, CA"]
 }
 ```
 
-Additionally, you can use `"geofences": [ "all" ]` as a shortcut for checking
+Additionally, you can use `"geofences":["all"]` as a shortcut for checking
 all geofences in a geofence file. Example:
 
 ```
-"filter_all_geofences": {
-    "geofences": [ "all" ]
+"filter_all_geofences":{
+    "geofences":["all"]
 }
 ```
 

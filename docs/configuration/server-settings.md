@@ -121,13 +121,13 @@ You can manually specify a configuration file with either the `-cf` or
 #key:						# Google Maps API Key to use
 #filters:					# File containing filter rules (default: filters.json)
 #alarms:					# File containing alarm rules (default: alarms.json)
-#rules:					# File containing rules settings (default: None)
+#rules:						# File containing rules settings (default: None)
 #geofence:					# File containing geofence(s) used to filter (default: None)
 #location:					# Location for the manager. 'Name' or 'lat lng' (default: None)
 #locale:					# Language to be used to translate names (default: en)
-#cache_type:			# Method used to cache dynamic objects used in Alerts. (default: mem)
+#cache_type:				# Method used to cache dynamic objects used in Alerts. (default: mem)
 #unit:						# Units used to measure distance. Either 'imperial' or 'metric' (default: imperial)
 #timelimit:					# Minimum number of seconds remaining to send a notification (default: 0)
-#max_attempts:			# Maximum number of attempts an alarm makes to send a notification. (default: 3)
+#max_attempts:				# Maximum number of attempts an alarm makes to send a notification. (default: 3)
 #timezone:					# Timezone used for notifications Ex: 'America/Los_Angeles' or '[America/Los_Angeles, America/New_York]'
 ```

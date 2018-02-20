@@ -37,6 +37,14 @@ mon_name          The name of the monster's species.
 mon_id            ID of the monster's species.
 mon_id_3          ID of the monster's species, padded to 3 digits.
 raid_lvl          The tier level of the raid.
+form              Form name of the monster.
+form_or_empty     Form name of the monster, or empty string if unknown.
+form_id           Form ID for the monster.
+form_id_3         Form ID of the monster, padded to 3 digits.
+costume           Costume name of the monster.
+costume_or_empty  Costume name of the monster, or empty string if unknown.
+costume_id        Costume ID for the monster.
+costume_id_3      Costume ID of the monster, padded to 3 digits.
 quick_move        Name of the monster's quick move.
 quick_id          ID of the monster's quick move.
 quick_damage      Damage of the monster's quick move.

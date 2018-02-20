@@ -44,7 +44,7 @@ Parameter          Description                                      Example
 ================== ================================================ ================================
 min_egg_lvl        Minimum level of the egg when hatched.           ``0``
 max_egg_lvl        Maximum level of the egg when hatched.           ``5``
-current_teams      List of allowed current teams, by id or name.    ``[ "Instinct", "Mystic" ]``
+current_teams      List of allowed current teams, by id or name.    ``["Instinct","Mystic"]``
 gym_name_contains  List of regex's required to be in the gym name.  ``["Sponsored","West\\sOak"]``
 ================== ================================================ ================================
 
