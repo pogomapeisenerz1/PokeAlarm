@@ -50,6 +50,7 @@ quick_moves       Accepted quick moves, by id or name.             ``["Vine Whip
 charge_moves      Accepted charge moves, by id or name.            ``["Sludge Bomb","Seed Bomb"]``
 current_teams     List of allowed current teams, by id or name.    ``["Instinct","Mystic"]``
 gym_name_contains List of regex's required to be in the gym name.  ``["Sponsored","West\\sOak"]``
+gym_name_excludes List of regex's rejected to be in the gym name.  ``["Sponsored","West\\sOak"]``
 ================= ================================================ ===============================
 
 

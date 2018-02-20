@@ -1,8 +1,8 @@
 Events
-=======
+=====================================
 
 .. contents:: Table of Contents
-   :depth: 1
+   :depth: 2
    :local:
 
 Prerequisites
