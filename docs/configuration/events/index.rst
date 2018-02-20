@@ -18,17 +18,9 @@ Introduction
 In PokeAlarm, an **Event** represents something of interest that has happened
 in the World. Events can be several different things - a new monster spawning,
 a gym changing teams, or a new raid appearing. There are 5 different categories
-for Events, each with different information:
-
-.. toctree::
-   :titlesonly:
-   :maxdepth: 1
-
-   monster-events
-   stop-events
-   gym-events
-   egg-events
-   raid-events
+for Events, each with different information: :doc:`../events/monster-events`,
+:doc:`../events/stop-events`, :doc:`../events/gym-events`,
+:doc:`../events/egg-events`, and :doc:`../events/raid-events`.
 
 .. _events_dts:
 
@@ -80,3 +72,61 @@ did not send the information needed in the webhook. PA does it's best to fill in
 the gaps by sharing and caching information between separate webhooks (like gym
 names or teams), but some info may require a settings update with your scanner
 (like IVs or CP).
+
+
+Advanced
+-------------------------------------
+
+
+Reverse Geocoding
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Reverse Geocoding** is a process that to get the name or data of
+places where the Events take place. This can be used to get things such
+as address, city, state, or more. For more information, see the
+Geocoding section of the :doc:`../../miscellaneous/location-services` page.
+
+PA will only use Reverse Geocoding for Events that have been triggered.
+Each Event will use up a single point of your API quota, regardless
+of number of fields or alarms used.
+
+================== ========================================================
+Text               Description
+================== ========================================================
+``<street_num>``   Street number of the alert location
+``<street>``       Street name of the alert location
+``<address>``      Address of the alert location, includes both street
+                   number and street name, in that order only
+``<address_eu>``   Address of the alert location, in european format (street
+                   name and street number)
+``<postal>``       Postal code of the alert location
+``<neighborhood>`` Neighborhood code of the alert location
+``<sublocality>``  Sublocality code of the alert location
+``<city>``         City code of the alert location
+``<county>``       County code of the alert location
+``<state>``        State code of the alert location
+``<country>``      Country code of the alert location
+================== ========================================================
+
+
+Distance Matrix
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Distance Matrix** calculations determine how far away an Event is, for
+both time and distance. This can be Walking, Biking, or Driving. These
+calculations require a set location, and a Google Maps API key. For more
+information, see the Distance Matrix section of the
+:doc:`../../miscellaneous/location-services` page.
+
+======================= ========================================================
+Text                    Description
+======================= ========================================================
+``<walking_distance>``  Estimated walking distance to the alert location
+``<walking_duration>``  Estimated walking time to alert location
+``<biking_distance>``   Estimated bike distance to the alert location
+``<biking_duration>``   Estimated bike time to alert location
+``<driving_distance>``  Estimated drive distance to the alert location
+``<driving_duration>``  Estimated drive time to alert location
+``<transit_distance>``  Estimated public transit distance to the alert location
+``<transit_duration>``  Estimated public transit time to alert location
+======================= ========================================================
