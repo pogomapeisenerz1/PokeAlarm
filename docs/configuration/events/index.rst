@@ -83,8 +83,7 @@ Reverse Geocoding
 
 **Reverse Geocoding** is a process that to get the name or data of
 places where the Events take place. This can be used to get things such
-as address, city, state, or more. For more information, see the
-Geocoding section of the :doc:`../../miscellaneous/location-services` page.
+as address, city, state, or more.
 
 PA will only use Reverse Geocoding for Events that have been triggered.
 Each Event will use up a single point of your API quota, regardless
@@ -113,8 +112,8 @@ Distance Matrix
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Distance Matrix** calculations determine how far away an Event is, for
-both time and distance. This can be Walking, Biking, or Driving. These
-calculations require a set location, and a Google Maps API key. For more
+both time and distance. This can be Walking, Biking, Driving, or Transit.
+These calculations require a set location, and a Google Maps API key. For more
 information, see the Distance Matrix section of the
 :doc:`../../miscellaneous/location-services` page.
 
