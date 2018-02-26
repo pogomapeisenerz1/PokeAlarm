@@ -100,6 +100,7 @@ Parameters        Description                                            Default
                   if you are experiencing notification issues on Android ``false``
 `sticker_url`     Url to be used for the sticker. Must be .webp file.
 `max_attempts`    Max attempts to send for each message.                 ``"3"``
+`web_preview`     Enables web preview for links in message.              ``false``
 `startup_message` Confirmation post when PokeAlarm initialized           ``true``
 ================= ====================================================== ============
 
