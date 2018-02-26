@@ -1,4 +1,4 @@
-Eggs Events
+Eggs
 =====================================
 
 .. contents:: Table of Contents

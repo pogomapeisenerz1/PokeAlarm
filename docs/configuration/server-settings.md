@@ -58,12 +58,12 @@ usage: start_pokealarm.py [-h] [-cf CONFIG] [-d] [-H HOST] [-P PORT]
                           [-ct {mem,file}] [-tl TIMELIMIT] [-ma MAX_ATTEMPTS]
 
 optional arguments:
-  -h, --help            show this help message and exit
+  -h, --help            Show this help message and exit.
   -cf CONFIG, --config CONFIG
-                        Configuration file
-  -d, --debug           Debug Mode
-  -H HOST, --host HOST  Set web server listening host
-  -P PORT, --port PORT  Set web server listening port
+                        Configuration file.
+  -d, --debug           Debug Mode.
+  -H HOST, --host HOST  Set web server listening host.
+  -P PORT, --port PORT  Set web server listening port.
   -C CONCURRENCY, --concurrency CONCURRENCY
                         Maximum concurrent connections for the webserver.
   -m MANAGER_COUNT, --manager_count MANAGER_COUNT
@@ -79,10 +79,10 @@ optional arguments:
   -gf GEOFENCES, --geofences GEOFENCES
                         Alarms configuration file. default: None
   -l LOCATION, --location LOCATION
-                        Location, can be an address or coordinates
+                        Location, can be an address or coordinates.
   -L {de,en,es,fr,it,ko,pt,zh_hk}, --locale {de,en,es,fr,it,ko,pt,zh_hk}
                         Locale for Pokemon and Move names: default en," + "
-                        check locale folder for more options
+                        check locale folder for more options.
   -u {metric,imperial}, --units {metric,imperial}
                         Specify either metric or imperial units to use for
                         distance " + "measurements.
@@ -105,7 +105,7 @@ optional arguments:
                         Specify the type of cache to use. Options: ['mem',
                         'file'] (Default: 'mem')
   -tl TIMELIMIT, --timelimit TIMELIMIT
-                        Minimum limit
+                        Minimum limit.
   -ma MAX_ATTEMPTS, --max_attempts MAX_ATTEMPTS
                         Maximum attempts an alarm makes to send a
                         notification.
@@ -134,9 +134,9 @@ You can manually specify a configuration file with either the `-cf` or
 ########################
 
 #host: 127.0.0.1                # Interface to listen on (default='127.0.0.1')
-#port: 4000						          # Port to listen on (default='4000')
+#port: 4000						# Port to listen on (default='4000')
 #concurrency: 200               # Maximum concurrent connections to webserver (default=200)
-#manager_count: 1				        # Number of Managers to run (default=1)
+#manager_count: 1				# Number of Managers to run (default=1)
 #debug                          # Enable debug logging (default='False)
 
 
@@ -194,7 +194,7 @@ You can manually specify a configuration file with either the `-cf` or
 ################
 #cache_type: file               # Type of cache used to share information between webhooks. (default='mem')
                                 # Options: ['mem', 'file']
-#timelimit: 0					          # Minimum seconds remaining on an Event to trigger notification (default=0)
+#timelimit: 0					# Minimum seconds remaining on an Event to trigger notification (default=0)
                                 # Note - `max_attempts` is being deprecated and may be replaced by alarm-level settings
-#max_attempts: 3				        # Maximum number of attempts an alarm makes to send a notification. (default=3)
+#max_attempts: 3				# Maximum number of attempts an alarm makes to send a notification. (default=3)
 ```

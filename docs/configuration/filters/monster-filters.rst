@@ -1,4 +1,4 @@
-Monsters Filters
+Monsters
 =====================================
 
 .. contents:: Table of Contents

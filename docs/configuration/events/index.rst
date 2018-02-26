@@ -18,9 +18,13 @@ Introduction
 In PokeAlarm, an **Event** represents something of interest that has happened
 in the World. Events can be several different things - a new monster spawning,
 a gym changing teams, or a new raid appearing. There are 5 different categories
-for Events, each with different information: :doc:`../events/monster-events`,
-:doc:`../events/stop-events`, :doc:`../events/gym-events`,
-:doc:`../events/egg-events`, and :doc:`../events/raid-events`.
+for Events, each with different information:
+
++ :doc:`monster-events`
++ :doc:`stop-events`
++ :doc:`gym-events`
++ :doc:`egg-events`
++ :doc:`raid-events`
 
 .. _events_dts:
 

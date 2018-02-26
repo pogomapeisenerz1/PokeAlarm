@@ -28,15 +28,12 @@ When PA finds a matching Filter, it triggers a notification.
 
 There are 5 different types of Filters, each matching a category of Events:
 
-.. toctree::
-   :titlesonly:
-   :maxdepth: 1
++ :doc:`monster-filters`
++ :doc:`stop-filters`
++ :doc:`gym-filters`
++ :doc:`egg-filters`
++ :doc:`raid-filters`
 
-   Monsters <monster-filters>
-   Stops <stop-filters>
-   Gyms <gym-filters>
-   Eggs <egg-filters>
-   Raids <raid-filters>
 
 Restrictions
 -------------------------------------

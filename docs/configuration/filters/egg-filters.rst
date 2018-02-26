@@ -1,4 +1,4 @@
-Eggs Filters
+Eggs
 =====================================
 
 .. contents:: Table of Contents

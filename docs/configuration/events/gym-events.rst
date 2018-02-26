@@ -1,4 +1,4 @@
-Gyms Events
+Gyms
 =====================================
 
 .. contents:: Table of Contents

@@ -1,4 +1,4 @@
-Stops Events
+Stops
 =====================================
 
 .. contents:: Table of Contents

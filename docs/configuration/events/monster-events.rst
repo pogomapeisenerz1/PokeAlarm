@@ -1,4 +1,4 @@
-Monsters Events
+Monsters
 =====================================
 
 .. contents:: Table of Contents

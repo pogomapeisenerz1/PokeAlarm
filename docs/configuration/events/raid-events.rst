@@ -1,4 +1,4 @@
-Raids Events
+Raids
 =====================================
 
 .. contents:: Table of Contents

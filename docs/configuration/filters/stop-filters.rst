@@ -1,4 +1,4 @@
-Stops Filters
+Stops
 =====================================
 
 .. contents:: Table of Contents

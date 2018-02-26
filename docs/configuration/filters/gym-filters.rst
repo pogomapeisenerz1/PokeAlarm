@@ -1,4 +1,4 @@
-Gyms Filters
+Gyms
 =====================================
 
 .. contents:: Table of Contents

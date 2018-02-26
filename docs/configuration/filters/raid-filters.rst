@@ -1,4 +1,4 @@
-Raids Filters
+Raids
 =====================================
 
 .. contents:: Table of Contents
